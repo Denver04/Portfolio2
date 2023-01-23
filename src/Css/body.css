@@ -1,0 +1,27 @@
+.body{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 10vh;
+    height: 75vh;
+}
+.body-right{
+    width: 30%;
+    text-align: center;
+}
+.body-right img{
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+    border-radius: 25%;
+    
+}
+.body-left{
+    width: 50%;
+    border: 2px solid;
+    font-size: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

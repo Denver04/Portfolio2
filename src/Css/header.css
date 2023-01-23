@@ -1,0 +1,35 @@
+body{
+    border: 2px solid purple;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 8vh;
+    margin: auto;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+}
+.head-part1{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 100%; */
+}
+.a{
+    margin: 10px 30px;
+    font-size: 22px;
+    padding: 10px 25px 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    transition: 0.6s;
+    box-sizing: border-box;
+}
+.a:hover{
+    border-bottom: solid thin #9f9f9f;
+    padding-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
