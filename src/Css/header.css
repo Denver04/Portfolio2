@@ -11,6 +11,7 @@ body{
     margin: auto;
     /* border: 2px solid red; */
     flex-wrap: wrap;
+    width: 80%;
 }
 .head-part1{
     display: flex;
