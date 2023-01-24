@@ -1,0 +1,42 @@
+.education{
+    width: 65%;
+    margin: auto;
+}
+.college , .metric , .inter{
+    width: 60%;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px 0 20px;
+    position: relative;
+}
+
+.education{
+    margin: 40px auto;
+    border-left: 5px solid black;
+    /* width: ; */
+    padding: 0 20px 0 30px;
+}
+.college::before , .metric::before , .inter::before{
+    content: "";
+    display: block;
+    left: -40px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid white;
+    position: absolute;
+    top: 16px;
+}
+
+.college::after , .metric::after , .inter::after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent #ddd transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    left: -18px;
+    bottom: 88px
+}

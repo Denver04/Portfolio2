@@ -2,11 +2,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 10vh;
     /* height: 100vh; */
     margin: 5vh auto;
     width: 80%;
+}
+.project{
+    text-align: center;
+    margin: 40px auto 0;
+    font-size: 1.5em;
 }
 .card{
     width: 340px;
@@ -24,6 +29,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 18px;
 }
 .card .face{
     position: absolute;
@@ -35,11 +41,10 @@
     justify-content: center;
     flex-direction: column;
     transform: perspective(500px) rotateY(0deg);
+    border-radius: 15px;
     /* transition-duration: 1.s; */
 }
-/* .card .face.front{
-    background-color: yellow;
-} */
+
 .card:hover .face{
     position: absolute;
     cursor: pointer;
@@ -54,7 +59,7 @@
     transform: perspective(500px) rotateY(180deg);
 }
 .card .face.back h3{
-    font-size: 3rem;
+    /* font-size: 2rem; */
     text-align: center;
     font-weight: bold;
 }
@@ -68,3 +73,23 @@
     text-align: center;
 }
 
+.bottom-text{
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 13px;
+}
+.linkss a i{
+    color: white;
+    font-size: 21px;
+    margin: 0 10px;
+}
+.linkss a{
+    margin: 0 5px;
+}
+.link{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

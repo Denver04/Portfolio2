@@ -8,13 +8,13 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    height: 8vh;
+    height: 10vh;
     margin: auto;
     flex-wrap: wrap;
     z-index: 999;
     left: 0;
     right: 0;
-    background-color: beige;
+    background-color: white;
     width: 100%;
 }
 .head-part1{
