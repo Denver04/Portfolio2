@@ -1,17 +1,21 @@
 body{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin: 0;
 }
 .header{
     display: flex;
+    position: fixed;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     height: 8vh;
     margin: auto;
-    /* border: 2px solid red; */
     flex-wrap: wrap;
-    width: 80%;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    background-color: beige;
+    width: 100%;
 }
 .head-part1{
     display: flex;

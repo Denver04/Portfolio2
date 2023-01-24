@@ -3,7 +3,7 @@
     justify-content: space-around;
     /* align-items: center; */
     width: 80%;
-    margin: 10vh auto 0;
+    margin: 25vh auto 0;
     height: 75vh;
 }
 .body-right{
@@ -51,7 +51,7 @@
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
-    bottom: 100%;
+    bottom: 105%;
     left: 50%;
     margin-left: -42px;
   }
