@@ -1,0 +1,18 @@
+.contact{
+    display: flex;
+    padding: 40px 250px;
+    flex-direction: column;
+    /* background-color: #dbdbdb; */
+}
+.contact-head{
+    font-size: 1.4rem;
+
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.contacts a{
+    font-size: 30px;
+    color: black;
+}
