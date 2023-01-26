@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import "../Css/footer.css";
 
 function Footer() {
   return (
-    <div>
-      
+    <div className='footer'>
+        <div className='project3'><h2>Abhisek Kumar Singh</h2></div>
+          <div className='contacts footer-icon'>
+            <a href="mailto:abhisekkumarsingh021@example.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+918875209080"><i class="fa-solid fa-phone-volume"></i></a>
+            <a href="https://www.instagram.com/denver_d_deniver/" target="_blank" className='insta'><i class="fa-brands fa-instagram-square" ></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100009848738409" target="_blank" className='fb'><i class="fa-brands fa-facebook-square" ></i></a>
+            <a href="https://github.com/Denver04" target="_blank" className='github'><i class="fa-brands fa-github-square" ></i></a>
+            <a href="https://www.linkedin.com/in/denver-abhisek-088592217/" target="_blank" className='linkedin'><i class="fa-brands fa-linkedin" ></i></a>
+          </div>
+          <div>
+        </div>
     </div>
   )
 }

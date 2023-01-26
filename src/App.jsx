@@ -3,9 +3,8 @@ import Navbar from './components/Navbar';
 import Body from './components/Body';
 import Project from './components/Project';
 import Skill from './components/Skill';
-import Education from './components/Education';
 import Contact from './components/Contact';
-import Achieve from './components/Achieve';
+import Footer from './components/Footer';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 
 function App() {
@@ -20,6 +19,7 @@ function App() {
         {/* <Route path="/education" element={<Body />} /> */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
       {/* <hr></hr> */}
       {/* <Body /> */}
