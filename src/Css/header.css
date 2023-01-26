@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 body{
     /* border: 2px solid purple; */
     margin: 0;
@@ -8,14 +9,15 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    height: 10vh;
+    height: 11vh;
     margin: auto;
     flex-wrap: wrap;
     z-index: 999;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: rgb(206 206 206);
     width: 100%;
+    z-index: 999;
 }
 .head-part1{
     display: flex;

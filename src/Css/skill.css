@@ -6,10 +6,10 @@
   font-family: 'Poppins', sans-serif;
 }
 html,body{
-  display: grid;
-  height: 100%;
+  /* display: grid; */
+  /* height: 100%; */
   place-items: center;
-  background: #6665ee;
+  background: #dfe2fd7a;
 }
 ::selection{
   color: #fff;

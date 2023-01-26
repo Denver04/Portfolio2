@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .contact{
     display: flex;
     padding: 40px 250px;
     flex-direction: column;
+    margin-top: 7rem;
     /* background-color: #dbdbdb; */
 }
 .contact-head{
@@ -11,8 +13,60 @@
 .contacts{
     display: flex;
     flex-direction: column;
+    width: 5%;
+    align-items: center;
 }
 .contacts a{
-    font-size: 30px;
+    font-size: 20px;
     color: black;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    height: auto;
+}
+
+form{
+    border: solid thin #c8c6c6;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 5px;
+}
+.form button{
+    font-size: 25px;
+    margin: auto;
+    width: 22%;
+    height: 45px;
+    text-align: center;
+    background-color: white;
+    border: solid thin #6665ee;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.button{
+    padding: 0 23px 26px;
+}
+input[type=text] , input[type=email] , textarea{
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: #d0d0f6;
+    border: solid thin #6665ee;
+    /* transform: scale(1); */
 }

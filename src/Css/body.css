@@ -1,10 +1,19 @@
-.body{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+/* .body{ */
+    /* display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     width: 80%;
     margin: 25vh auto 0;
     height: 75vh;
+    font-style: p; */
+/* } */
+.body1{
+  display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 80%;
+    margin: 25vh auto 10vh;
+    /* height: 75vh; */
 }
 .body-right{
     width: 30%;
@@ -36,29 +45,39 @@
     position: relative;
     display: inline-block;
     /* border-bottom: 1px dotted black; */
+    width: 14%;
+    padding: 4px;
+    text-align: center;
+    background-color: snow;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
   }
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 80px;
+    width: 90px;
     background-color: rgb(102, 101, 101);
     color: #fff;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
     font-size: 15px;
-    
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
     bottom: 105%;
     left: 50%;
     margin-left: -42px;
+    transition: all 0.5s linear;
   }
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
     color: #fff;
+  }
+  .tooltip:hover{
+    cursor: pointer;
   }
   .icons{
     display: flex;
@@ -66,8 +85,35 @@
     /* filter: brightness(0); */
     margin-top: 5vh;
     padding: 10px 0;
-    width: 50%;
+    width: 72%;
   }
-  .tooltip a i{
+  /* .tooltip a i{
     filter: brightness(0);
+  } */
+  .tooltip:nth-child(1) a i{
+    color: #ff3e3e;
+  }
+  .tooltip:nth-child(2) a i{
+    color: #3b5998;
+  }
+  /* .tooltip:nth-child(3){
+    color: #ff3e3e;
+  } */
+  .tooltip:nth-child(4) a i{
+    color: #0e76a8;
+  }
+  .tooltip:nth-child(1):hover{
+    background-color: #ff3e3e;
+  }
+  .tooltip:nth-child(2):hover{
+    background-color: #3b5998;
+  }
+  .tooltip:nth-child(3):hover{
+    background-color: #6e5494;
+  }
+  .tooltip:nth-child(4):hover{
+    background-color: #0e76a8;
+  }
+  .tooltip:hover a i{
+    filter: brightness(100);
   }

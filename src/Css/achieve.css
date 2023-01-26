@@ -1,0 +1,23 @@
+.achieve{
+    width: 32%;
+    text-align: center;
+    letter-spacing: 0.7px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 10px rgb(228 200 200 / 28%);
+    position: relative;
+    margin: 8vh auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.achieve p{
+    text-align: initial;
+}
+.achieve h3{
+    color: purple;
+    margin-bottom: 10px;
+}
+.date{
+    margin: 20px auto 0;
+    color: black;
+}

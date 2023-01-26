@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .container{
     display: flex;
     flex-direction: row;
@@ -10,8 +11,16 @@
 }
 .project{
     text-align: center;
-    margin: 40px auto 0;
+    margin: 7rem auto 0;
     font-size: 1.5em;
+}
+.project3{
+    text-align: center;
+    margin: 0rem auto 0;
+    font-size: 1.5em;
+}
+.project4{
+    margin-top: 4rem;
 }
 .card{
     width: 340px;

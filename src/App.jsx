@@ -5,21 +5,34 @@ import Project from './components/Project';
 import Skill from './components/Skill';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Achieve from './components/Achieve';
+import { BrowserRouter , Routes , Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+    <BrowserRouter>
       <Navbar />
-      <hr></hr>
-      <Body />
-      <hr></hr>
-      <Skill />
-      <hr></hr>
-      <Project />
-      <hr></hr>
-      <Education />
-      <hr></hr>
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Body />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/project" element={<Project />} />
+        {/* <Route path="/education" element={<Body />} /> */}
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
+      {/* <hr></hr> */}
+      {/* <Body /> */}
+      {/* <hr></hr> */}
+      {/* <Skill /> */}
+      {/* <hr></hr> */}
+      {/* <Project /> */}
+      {/* <hr></hr> */}
+      {/* <Education /> */}
+      {/* <hr></hr> */}
+      {/* <Contact /> */}
+      {/* <hr></hr> */}
+      {/* <Achieve /> */}
     </div>
   )
 }

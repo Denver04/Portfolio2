@@ -4,7 +4,7 @@ import "../Css/education.css";
 function Education() {
   return (
     <>
-    <div className='project'><h1>Education </h1></div>
+    <div className='project3 project4'><h1>Education </h1></div>
     <div className='education'>
         <div className='college'>
             <h3>Army Institue of technology</h3>
