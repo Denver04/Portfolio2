@@ -1,7 +1,14 @@
 .footer{
     display: flex;
     padding: 4rem 2rem;
-    border: 2px solid;
+    /* border: 2px solid; */
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.follow{
+    width: 45%;
 }
 .footer-icon{
     flex-direction: row;
@@ -10,26 +17,53 @@
     align-items: center;
     margin-right: 4rem;
 }
+.project5{
+    margin: unset;
+}
 .footer-icon a{
     font-size: 20px;
     /* border: 2px solid; */
     padding: 8px;
     border-radius: 50%;
-    width: 14%;
+    width: 12%;
     text-align: center;
     background: white;
 }
+.footer-icon{
+    display: flex;
+    flex-direction: column;
+}
+.follow-icon a{
+    /* width: unset; */
+    width: 14%;
+    margin-bottom: 15px;
+}
+.contacss{
+    width: 27%;
+}
 .footer-icon a:nth-child(1){
     color: brown;
+    border:solid thin brown;
+}
+.footer-icon a:nth-child(2){
+    /* color: #ff3e3e; */
+    border:solid thin blue;
 }
 .footer-icon a:nth-child(3){
     color: #ff3e3e;
+    border:solid thin #ff3e3e;
 }
 .footer-icon a:nth-child(4){
     color: #3b5998;
+    border:solid thin #3b5998;
+}
+.footer-icon a:nth-child(5){
+    color: #6e5494;
+    border:solid thin #6e5494;
 }
 .footer-icon a:nth-child(6){
     color: #0e76a8;
+    border:solid thin #0e76a8;
 }
 
 .footer-icon a:nth-child(1):hover{
@@ -53,4 +87,14 @@
 }
 .footer-icon a:hover i{
     filter: brightness(100);
+}
+.facon{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.facon a{
+    margin: 0px 15px
 }

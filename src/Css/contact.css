@@ -3,11 +3,13 @@
     display: flex;
     padding: 40px 250px;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
     /* background-color: #dbdbdb; */
 }
 .contact-head{
     font-size: 1.4rem;
+    margin: 2rem auto 1rem;
 
 }
 .contacts{

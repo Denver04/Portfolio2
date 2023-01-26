@@ -5,6 +5,7 @@ import Project from './components/Project';
 import Skill from './components/Skill';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrolTop from './components/ScrolTop';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <Navbar />
+      <ScrolTop />
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/skill" element={<Skill />} />
@@ -19,6 +21,7 @@ function App() {
         {/* <Route path="/education" element={<Body />} /> */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <ScrolTop />
       <Footer />
     </BrowserRouter>
       {/* <hr></hr> */}

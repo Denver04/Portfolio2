@@ -10,6 +10,11 @@
     background-color: white;
     border-radius: 10px;
 }
+.body-achieve{
+    /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+
+}
 .achieve p{
     text-align: initial;
 }

@@ -3,7 +3,7 @@ import "../Css/achieve.css";
 
 function Achieve() {
   return (
-    <div style={{backgroundColor:"#efefef" , padding:"40px"}}>
+    <div className="body-achieve" style={{backgroundColor:"#efefef" , padding:"40px"}}>
       <div className="project3">
         <h1>Experience</h1>
       </div>

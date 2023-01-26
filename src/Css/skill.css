@@ -10,6 +10,12 @@ html,body{
   /* height: 100%; */
   place-items: center;
   background: #dfe2fd7a;
+   /* background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png"); */
+  /* background-color: #387bc2; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+  scroll-behavior: smooth;
+
 }
 ::selection{
   color: #fff;
@@ -18,7 +24,7 @@ html,body{
 .skills{
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 0 auto 5rem;
 }
 .skill-bars{
   padding: 25px 30px;
