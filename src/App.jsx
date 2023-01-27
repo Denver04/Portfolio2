@@ -8,11 +8,37 @@ import Footer from './components/Footer';
 import ScrolTop from './components/ScrolTop';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import "../src/Css/responsive.css";
+import { useEffect , useState} from 'react';
+import { BallTriangle } from 'react-loader-spinner';
 
 function App() {
+
+  const [loading , setLoading] = useState(false);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false);
+    }, 2500)
+  }, [])
+
   return (
     <div className="App">
-    <BrowserRouter>
+    {
+      loading ? 
+      <BallTriangle
+        height={100}
+        width={100}
+        radius={5}
+        color="#6665ee"
+        ariaLabel="ball-triangle-loading"
+        // wrapperClass=
+        wrapperStyle={{margin:"19rem auto"}}
+        visible={true}
+      />
+        :
+        <>
+        <BrowserRouter>
       <Navbar />
       <ScrolTop />
       <Routes>
@@ -25,18 +51,8 @@ function App() {
       <ScrolTop />
       <Footer />
     </BrowserRouter>
-      {/* <hr></hr> */}
-      {/* <Body /> */}
-      {/* <hr></hr> */}
-      {/* <Skill /> */}
-      {/* <hr></hr> */}
-      {/* <Project /> */}
-      {/* <hr></hr> */}
-      {/* <Education /> */}
-      {/* <hr></hr> */}
-      {/* <Contact /> */}
-      {/* <hr></hr> */}
-      {/* <Achieve /> */}
+        </>
+    }
     </div>
   )
 }

@@ -7,7 +7,7 @@
 }
 html,body{
   /* display: grid; */
-  /* height: 100%; */
+  height: auto;
   place-items: center;
   background: #dfe2fd7a;
    /* background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png"); */
