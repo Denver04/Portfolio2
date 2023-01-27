@@ -26,6 +26,7 @@ body{
 }
 .a{
     margin: 10px 30px;
+    position: relative;
     font-size: 22px;
     padding: 10px 25px 0;
     text-decoration: none;
@@ -35,8 +36,27 @@ body{
     box-sizing: border-box;
 }
 .a:hover{
-    border-bottom: solid thin #9f9f9f;
+    /* border-bottom: solid thin #9f9f9f; */
     padding-bottom: 0;
     text-decoration: none;
     cursor: pointer;
+}
+.a::before , .a::after{
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: #9f9f9f;
+    transition: 0.5s;
+}
+.a::after{
+    left: 0;
+    bottom: -10px;
+}
+.a::before{
+    right: 0;
+    top: 0px;
+}
+.a:hover::after , .a:hover::before{
+    width: 100%;
 }

@@ -10,6 +10,7 @@ import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import "../src/Css/responsive.css";
 import { useEffect , useState} from 'react';
 import { BallTriangle } from 'react-loader-spinner';
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader"
 
 function App() {
 
@@ -19,23 +20,14 @@ function App() {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false);
-    }, 2500)
+    }, 3000)
   }, [])
 
   return (
     <div className="App">
     {
       loading ? 
-      <BallTriangle
-        height={100}
-        width={100}
-        radius={5}
-        color="#6665ee"
-        ariaLabel="ball-triangle-loading"
-        // wrapperClass=
-        wrapperStyle={{margin:"19rem auto"}}
-        visible={true}
-      />
+      <ClimbingBoxLoader color='#5a55f3' style={{display:"flex" , alignItems:"center" , justifyContent:"center" }} />
         :
         <>
         <BrowserRouter>

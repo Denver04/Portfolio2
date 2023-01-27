@@ -1,5 +1,118 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:500px){
     body{
         display: flex;
+        width: 221%;
+    }
+    .body1{
+        width: unset;
+        flex-direction: column-reverse;
+    }
+    .body-left{
+        width: unset;
+        font-size: 35px;
+    }
+    .icons{
+        width: 62%;
+    }
+    .body-right{
+        width: unset;
+    }
+    .body-right img{
+        width: 60%;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        margin-top: 5rem;
+    }
+    .contacss{
+        width: inherit;
+        /* margin: 3rem; */
+    }
+    .facon{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-icon a{
+        width: 10%;
+    }
+    .follow-icon{
+        margin-right: unset;
+    }
+    .follow-icon{
+        width: inherit;
+        margin-top: 2rem;
+    }
+    .achieve p{
+        font-size: 25px;
+    }
+    .skills{
+        display: unset;
+    }
+    .skill-bars{
+        margin: 8vh 0vh 15vh 0;
+    }
+    .container{
+        gap: 4rem 0;
+        width: inherit;
+    }
+    .contact{
+        padding: unset;
+        margin: 14rem 0;
+        /* width: 200%; */
+    }
+    .follow-icon{
+        margin-top: unset;
+    }
+    .facon{
+        display: unset;
+        height: 100%;
+    }
+    .footer-icon h2{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .footer-icon{
+        margin-right: unset;
+    }
+    .footer{
+        margin-top: 9rem;
+        padding: 8rem 90px;
+    }
+    .header{
+        padding: unset;
+        height: 12vh;
+    }
+    .head-elments{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .project5{  
+        width: 33%;
+    }
+    input[type=text], input[type=email], textarea {
+        padding: 12px;
+        border-radius: 5px;
+    }
+    .form button {
+        width: 30%;
+    }
+    .wrapper{
+        margin: 39rem 17rem
+    }
+    .body-left{
+        padding: 70px 0 0 70px;
+    }
+    .college , .metric , .inter{
+        font-size: 25px;
+    }
+    .container .card{
+        width: 400px;
+    }
+    .content p{
+        font-size: 18px;
     }
 }
