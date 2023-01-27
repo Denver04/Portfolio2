@@ -37,15 +37,6 @@
     position: absolute;
     top: 40px;
 }
-
-/* .college::after , .metric::after , .inter::after{
-    content: "";
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent #ddd transparent transparent;
-    border-width: 8px;
-    position: absolute;
-    left: -18px;
-    bottom: 88px
-} */
+.project4{
+    margin: 3rem 0 1rem;
+}

@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrolTop from './components/ScrolTop';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
+import "../src/Css/responsive.css";
 
 function App() {
   return (

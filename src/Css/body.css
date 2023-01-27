@@ -117,3 +117,7 @@
   .tooltip:hover a i{
     filter: brightness(100);
   }
+  .project3{
+    text-align: center;
+    font-size: 1.5rem;
+  }
