@@ -16,9 +16,9 @@ function Navbar() {
                 <Link className='a' to="/contact">Contact</Link>
             </div>
         </div>
-        <div className='head-part2'>
+        {/* <div className='head-part2'>
             <button>Change theme</button>
-        </div>
+        </div> */}
     </div>
   )
 }

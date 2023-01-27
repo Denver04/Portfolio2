@@ -1,36 +1,18 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import main from "../images/main.jpg";
 import "../Css/body.css";
 import Education from './Education';
 import Achieve from './Achieve';
-import { useEffect , useState} from 'react';
-import { Dna } from 'react-loader-spinner';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
-function Body() {
-
-  // const [loading , setLoading] = useState(false);
-
-  // useEffect(()=>{
-  //   setLoading(true);
-  //   setTimeout(()=>{
-  //     setLoading(false);
-  //   }, 10000000)
-  // }, [])
-
+function Body(){
+  useEffect(()=>{
+    Aos.init({duration:1500})
+  } , [])
   return (
     <div className='body'>
-    {/* {
-      loading ? 
-      <Dna
-        visible={true}
-        height="80"
-        width="80"
-        ariaLabel="dna-loading"
-        wrapperStyle={{marginTop:"10rem" , height:"100%"}}
-        wrapperClass="dna-wrapper"
-      /> : */}
-{/* <> */}
-<div className='body1'>
+      <div className='body1' data-aos="zoom-in">
         <div className='body-left'>
             <h4>Hii , I'm Abhisek</h4>
             <h5>Front-end developer , Web Designer and a C++ programmer</h5>
@@ -65,8 +47,6 @@ function Body() {
        </div>
         <Achieve />
         <Education />
-        {/* </> */}
-    {/* } */}
       
     </div>
   )

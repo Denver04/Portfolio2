@@ -1,10 +1,19 @@
-import React from 'react';
-import "../Css/skill.css"
+import React , { useEffect } from 'react';
+import "../Css/skill.css";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 function Skill() {
+
+    useEffect(()=>{
+        Aos.init({duration:3000})
+      } , [])
+
   return (
     <>
-    <div className='project'><h1>My Knowledge in Languages</h1></div>
+    <div className='project' data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-offset="0"><h1>My Knowledge in Languages</h1></div>
     <div className='skills'>
         <div class="skill-bars">
             <h3>Front-end languages</h3>

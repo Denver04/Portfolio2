@@ -1,12 +1,12 @@
 .achieve{
-    width: 32%;
+    width: auto;
     text-align: center;
     letter-spacing: 0.7px;
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 6px 6px 10px rgb(228 200 200 / 28%);
     position: relative;
-    margin: 8vh auto;
+    margin: 10vh 8vh;
     background-color: white;
     border-radius: 10px;
 }

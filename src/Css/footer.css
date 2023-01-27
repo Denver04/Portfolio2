@@ -47,22 +47,22 @@
     border:solid thin brown;
 }
 .footer-icon a:nth-child(2){
-    /* color: #ff3e3e; */
+    color: blue;
     border:solid thin blue;
 }
-.footer-icon a:nth-child(3){
+.follow-icon a:nth-child(1){
     color: #ff3e3e;
     border:solid thin #ff3e3e;
 }
-.footer-icon a:nth-child(4){
+.follow-icon a:nth-child(2){
     color: #3b5998;
     border:solid thin #3b5998;
 }
-.footer-icon a:nth-child(5){
+.follow-icon a:nth-child(3){
     color: #6e5494;
     border:solid thin #6e5494;
 }
-.footer-icon a:nth-child(6){
+.follow-icon a:nth-child(4){
     color: #0e76a8;
     border:solid thin #0e76a8;
 }
@@ -70,20 +70,20 @@
 .footer-icon a:nth-child(1):hover{
     background-color: brown;
 }
-.footer-icon a:nth-child(3):hover{
-    background-color: #ff3e3e;
-}
-.footer-icon a:nth-child(2):hover{
+.contacss .facon a:nth-child(2):hover{
     background-color: blue;
     color: white;
 }
-.footer-icon a:nth-child(5):hover{
+.follow-icon a:nth-child(1):hover{
+    background-color: #ff3e3e;
+}
+.follow-icon a:nth-child(3):hover{
     background-color: #6e5494;
 }
-.footer-icon a:nth-child(4):hover{
+.footer-icon a:nth-child(2):hover{
     background-color: #3b5998;
 }
-.footer-icon a:nth-child(6):hover{
+.follow-icon a:nth-child(4):hover{
     background-color: #0e76a8;
 }
 .footer-icon a:hover i{
