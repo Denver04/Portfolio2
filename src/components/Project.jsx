@@ -60,13 +60,13 @@ function Project() {
               </div>
               <div className="iccon">
                 <a
-                  href="https://facebook.com"
+                  href="https://denver-todo.netlify.app"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://google.com" target="_blank" className="abcs">
+                <a href="https://github.com/Denver04/Todo" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -94,13 +94,13 @@ function Project() {
               </div>
               <div className="iccon">
                 <a
-                  href="https://facebook.com"
+                  href="https://denver04.github.io/NoInstaClone/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://google.com" target="_blank" className="abcs">
+                <a href="https://github.com/Denver04/NoInstaClone" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -118,7 +118,7 @@ function Project() {
               <p>
                 It is a clone of Google Keep app. You can add or delete the
                 notes. A very similar UI to Keep app is given. Background
-                texture is also provided.
+                texture is also provided.I've also added some icons from <mark>Material-UI</mark>.
               </p>
               <div className="used">
                 <p>
@@ -126,14 +126,14 @@ function Project() {
                 </p>
               </div>
               <div className="iccon">
-                <a
+                {/* <a
                   href="https://facebook.com"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
-                </a>
-                <a href="https://google.com" target="_blank" className="abcs">
+                </a> */}
+                <a href="https://github.com/Denver04/Keeper" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -160,13 +160,13 @@ function Project() {
               </div>
               <div className="iccon">
                 <a
-                  href="https://facebook.com"
+                  href="https://denver04.github.io/react-deploy/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://google.com" target="_blank" className="abcs">
+                <a href="https://github.com/Denver04/Shopping-website" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -195,13 +195,13 @@ function Project() {
               </div>
               <div className="iccon">
                 <a
-                  href="https://facebook.com"
+                  href="https://denver04.github.io/HostingSite/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://google.com" target="_blank" className="abcs">
+                <a href="https://github.com/Denver04/HostingSite" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -229,13 +229,13 @@ function Project() {
               </div>
               <div className="iccon">
                 <a
-                  href="https://facebook.com"
+                  href="https://denver04.github.io/dice-drum/Drum%20Kit/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://google.com" target="_blank" className="abcs">
+                <a href="https://github.com/Denver04/dice-drum/tree/main/Drum%20Kit" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -245,190 +245,7 @@ function Project() {
             <h1>07</h1>
           </div>
         </div>
-        {/* <div className="card">
-          <div className="face front">
-            <img src={aimora} />
-          </div>
-          <div className="face back">
-            <div className="top-text">
-              <h3>Name of Website 1</h3>
-            </div>
-            <div className="bottom-text">
-              <p>
-                a freelance product designer whs worked with huge names like
-                InVision and Zendesk. His specialty is making complex tasks
-                simple and intuitive to use, which is reflected in the way his
-                portfolio cleanly and effectively displays his best work.{" "}
-              </p>
-            </div>
-            <div className="link">
-              <div className="tooltip linkss">
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <span class="tooltiptext">host</span>
-              </div>
-              <div className="tooltip linkss">
-                <a href="https://google.com" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-                <span class="tooltiptext">repo</span>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div className="card">
-          <div className="face front">
-            <img src={insta} />
-          </div>
-          <div className="face back">
-            <div className="top-text">
-              <h3>Name of Website 1</h3>
-            </div>
-            <div className="bottom-text">
-              <p>
-                a freelance product designer whs worked with huge names like
-                InVision and Zendesk. His specialty is making complex tasks
-                simple and intuitive to use, which is reflected in the way his
-                portfolio cleanly and effectively displays his best work.{" "}
-              </p>
-            </div>
-            <div className="link">
-              <div className="tooltip linkss">
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <span class="tooltiptext">host</span>
-              </div>
-              <div className="tooltip linkss">
-                <a href="https://google.com" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-                <span class="tooltiptext">repo</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face front">
-            <img src={keeper} />
-          </div>
-          <div className="face back">
-            <div className="top-text">
-              <h3>Name of Website 1</h3>
-            </div>
-            <div className="bottom-text">
-              <p>
-                a freelance product designer whs worked with huge names like
-                InVision and Zendesk. His specialty is making complex tasks
-                simple and intuitive to use, which is reflected in the way his
-                portfolio cleanly and effectively displays his best work.{" "}
-              </p>
-            </div>
-            <div className="link">
-              <div className="tooltip linkss">
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <span class="tooltiptext">host</span>
-              </div>
-              <div className="tooltip linkss">
-                <a href="https://google.com" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-                <span class="tooltiptext">repo</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face front">
-            <img src={simon} />
-          </div>
-          <div className="face back">
-            <div className="top-text">
-              <h3>Name of Website 1</h3>
-            </div>
-            <div className="bottom-text">
-              <p>
-                a freelance product designer whs worked with huge names like
-                InVision and Zendesk. His specialty is making complex tasks
-                simple and intuitive to use, which is reflected in the way his
-                portfolio cleanly and effectively displays his best work.{" "}
-              </p>
-            </div>
-            <div className="link">
-              <div className="tooltip linkss">
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <span class="tooltiptext">host</span>
-              </div>
-              <div className="tooltip linkss">
-                <a href="https://google.com" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-                <span class="tooltiptext">repo</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face front">
-            <img src={drumkit} />
-          </div>
-          <div className="face back">
-            <div className="top-text">
-              <h3>Name of Website 1</h3>
-            </div>
-            <div className="bottom-text">
-              <p>
-                a freelance product designer whs worked with huge names like
-                InVision and Zendesk. His specialty is making complex tasks
-                simple and intuitive to use, which is reflected in the way his
-                portfolio cleanly and effectively displays his best work.{" "}
-              </p>
-            </div>
-            <div className="link">
-              <div className="tooltip linkss">
-                <a
-                  href="https://facebook.com"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <span class="tooltiptext">host</span>
-              </div>
-              <div className="tooltip linkss">
-                <a href="https://google.com" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-                <span class="tooltiptext">repo</span>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   );
