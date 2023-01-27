@@ -5,6 +5,7 @@ function Education() {
   return (
     <>
     <div className='project3 project4'><h1>Education </h1></div>
+    <div className='top-edu'>
     <div className='education'>
         <div className='college'>
             <h3>Army Institue of technology</h3>
@@ -21,6 +22,7 @@ function Education() {
             <p>2020-2024</p>
             <p>Pune ,Maharastra</p>
         </div>
+    </div>
     </div>
     </>
   )

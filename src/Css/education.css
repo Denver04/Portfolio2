@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .education{
-    width: 65%;
+    /* width: 65%; */
     margin: auto;
 }
 .college , .metric , .inter{
-    width: 60%;
-    border: 2px solid black;
+    width: 35rem;
     padding: 20px;
     margin: 20px 0 20px;
     position: relative;
+    letter-spacing: 0.7px;
+    box-sizing: border-box;
+    box-shadow: 6px 6px 10px rgb(228 200 200 / 28%);
+    background-color: white;
+    border-radius: 6px;
 }
-
+.top-edu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .education{
     margin: 50px auto 9rem;
     border-left: 5px solid black;
@@ -20,17 +28,17 @@
 .college::before , .metric::before , .inter::before{
     content: "";
     display: block;
-    left: -40px;
+    left: -39px;
     width: 6px;
     height: 6px;
     border-radius: 50%;
     background-color: black;
     border: 3px solid white;
     position: absolute;
-    top: 16px;
+    top: 40px;
 }
 
-.college::after , .metric::after , .inter::after{
+/* .college::after , .metric::after , .inter::after{
     content: "";
     width: 0;
     height: 0;
@@ -40,4 +48,4 @@
     position: absolute;
     left: -18px;
     bottom: 88px
-}
+} */

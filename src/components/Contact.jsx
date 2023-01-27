@@ -28,15 +28,15 @@ function Contact() {
         <div className='form'>
             <form ref={form} onSubmit={sendEmail}>
             <div className='input'>
-                <label>Name</label>
+                {/* <label>Name</label> */}
                 <input type="text" name="from_name" placeholder='Name' />
             </div>
             <div className='input'>
-                <label>Email</label>
+                {/* <label>Email</label> */}
                 <input type="email" name="from_email" placeholder='Enter your email'/>
             </div>
             <div className='input'>
-                <label>Message</label>
+                {/* <label>Message</label> */}
                 <textarea name="message" placeholder='Message'/>
             </div>
             {/* <input type="submit" value="Send" /> */}

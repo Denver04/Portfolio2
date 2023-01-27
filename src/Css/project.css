@@ -1,104 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    gap: 4rem;
+    width: 75%;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 10vh;
-    /* height: 100vh; */
-    margin: 5vh auto;
-    width: 80%;
+    margin: 3rem auto;
 }
-.project{
-    text-align: center;
-    margin: 9rem auto 0;
-    font-size: 1.5em;
+.content p{
+    font-size: 15px;
 }
-.project3{
-    text-align: center;
-    margin: 0rem auto 0;
-    font-size: 1.5em;
+.used{
+    margin: 20px 0;
 }
-.project4{
-    margin-top: 4rem;
-}
-.card{
-    width: 340px;
+.container .card{
     position: relative;
-    height: 45vh;
-    transition: 1.8s all ease-in-out;
-    transform-style: preserve-3d;
-    margin: 4vh 2vh;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: #d2f6ff;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
-.card .front{
-    width: 100%;
-    height: 100%;
-}
-.card .front img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 18px;
-}
-.card .face{
+.container .card .face{
     position: absolute;
-    transition: 0.5s ease-in-out;
+    left: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    transform: perspective(500px) rotateY(0deg);
-    border-radius: 15px;
-    /* transition-duration: 1.s; */
+    align-items: center;
+}
+.container .card .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.container .card .face.face1 h2{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.container .card .face.face2{
+    background-color: black;
+    transition: 0.5s;
 }
 
-.card:hover .face{
-    position: absolute;
-    cursor: pointer;
+.container .card .face.face2 h1{
+    font-size: 10rem;
+    color: black;
+    transition: 0.5s;
 }
-.card:hover .face.front{
-    transform: perspective(500px) rotateY(180deg);
+.container .card:hover .face.face2{
+    height: 20%;
 }
-.card .face.back{
-    background-color: green;
-    visibility: hidden;
-    opacity: 0;
-    transform: perspective(500px) rotateY(180deg);
+.container .card:hover .face.face2 h1{
+    font-size: 3rem;
 }
-.card .face.back h3{
-    /* font-size: 2rem; */
+.container .card .content{
+    position: relative;
+    bottom: 40px;
+    padding: 0px;
+}
+.project-head{
+    margin: 8rem 0 0 0;
     text-align: center;
-    font-weight: bold;
+    font-size: 2rem;
 }
-.card:hover .face.back{
-    transform: perspective(500px) rotateY(360deg);
-    visibility: visible;
-    opacity: 1;
-}
-.card:hover .face.back h3{
-    transform: perspective(500px) translateZ(90px);
-    text-align: center;
-}
-
-.bottom-text{
+.iccon{
     width: 100%;
-    padding: 15px 30px;
-    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12px;
 }
-.linkss a i{
+.iccon a{
+    border: solid thin black;
+    width: 14%;
+    text-align: center;
+    border-radius: 50%;
+    padding: 4px 5px;
+    color: black;
+}
+.iccon a:hover i{
+    /* filter: brightness(0); */
     color: white;
-    font-size: 21px;
-    margin: 0 10px;
 }
-.linkss a{
-    margin: 0 5px;
+.iccon a:hover{
+    background-color: black;
 }
-.link{
-    margin-top: 1vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.container .card:nth-child(1) .face.face2{
+    background: linear-gradient(45deg , #3503ad , #fb7eb8);
+}
+.container .card:nth-child(2) .face.face2{
+    background: linear-gradient(45deg , #2f5cff , #dbf4ff);
+}
+.container .card:nth-child(3) .face.face2{
+    background: linear-gradient(45deg , #acb6e5 , #86fde8);
+}
+.container .card:nth-child(4) .face.face2{
+    background: linear-gradient(45deg , #9796f0 , #fbc7d4);
+}
+.container .card:nth-child(5) .face.face2{
+    background: linear-gradient(45deg , #a7bfe8 , #6190e8);
+}
+.container .card:nth-child(6) .face.face2{
+    background: linear-gradient(45deg , #fbee97 , #adedd5);
+}
+.container .card:nth-child(7) .face.face2{
+    background: linear-gradient(45deg , #a0bef8 , #b5f0f0);
 }
