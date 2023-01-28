@@ -31,7 +31,7 @@
         align-items: flex-end;
         height: 10rem;
         margin-top: 5rem;
-        padding: 4rem 4rem;
+        padding: 4rem 8rem;
     }
     .contacss{
         width: inherit;
@@ -104,7 +104,7 @@
     input[type=text], input[type=email], textarea {
         padding: 12px;
         border-radius: 5px;
-        font-size: 20px;
+        font-size: 30px;
     }
     .form button {
         width: 30%;
@@ -123,7 +123,7 @@
     }
     .form{
         width:80%;
-            margin-bottom:3rem;
+        margin-bottom:3rem;
     }
     .achieve h3{
         font-size: 35px;
