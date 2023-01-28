@@ -1,4 +1,4 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     body{
         display: flex;
         width: 221%;
@@ -12,7 +12,7 @@
         font-size: 35px;
     }
     .icons{
-        width: 62%;
+        width: 75%;
     }
     .body-right{
         width: unset;
@@ -22,8 +22,8 @@
     }
     .footer{
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        align-items: flex-end;
         height: 10rem;
         margin-top: 5rem;
     }
@@ -36,20 +36,23 @@
         height: 100%;
     }
     .footer-icon a{
-        width: 10%;
+        width: 35%;
+        font-size: 25px;
     }
     .follow-icon{
         margin-right: unset;
+        width: 50%;
     }
     .follow-icon{
-        width: inherit;
+        /* width: inherit; */
         margin-top: 2rem;
     }
     .achieve p{
         font-size: 25px;
     }
     .skills{
-        display: unset;
+        /* display: unset; */
+        /* margin: 0 18rem; */
     }
     .skill-bars{
         margin: 8vh 0vh 15vh 0;
@@ -66,8 +69,11 @@
     .follow-icon{
         margin-top: unset;
     }
+    .contacss{
+        width: 30%;
+    }
     .facon{
-        display: unset;
+        /* display: unset; */
         height: 100%;
     }
     .footer-icon h2{
@@ -79,7 +85,7 @@
     }
     .footer{
         margin-top: 9rem;
-        padding: 8rem 90px;
+        padding: 8rem 0px;
     }
     .header{
         padding: unset;
@@ -104,7 +110,7 @@
         margin: 39rem 17rem
     }
     .body-left{
-        padding: 70px 0 0 70px;
+        padding: 70px 0 0 50px;
     }
     .college , .metric , .inter{
         font-size: 25px;
@@ -112,7 +118,88 @@
     .container .card{
         width: 400px;
     }
+    .achieve h3{
+        font-size: 35px;
+    }
+    .date{
+        margin: 20px 20px;
+    }
+    .achieve ul li{
+        margin: 20px;
+    }
     .content p{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1004px) and (min-width:650px) {
+    .body1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 25vh auto;
+    }
+    .body-left{
+        width: unset;
+    }
+    .body-right{
+        width: unset;
+    }
+    .body-right img{
+        width: 50%;
+    }
+    .skills{
+        display: unset;
+        margin: auto;
+    }
+    .project{
+        font-size: 1.2rem;
+    }
+    .container{
+        width: unset;
+    }
+    .contact{
+        padding: unset;
+    }
+    .footer-icon{
+        margin-right: unset;
+    }
+    .facon a{
+        margin: 0 5px;
+    }
+    .footer-icon a{
+        width: 25%;
+    }
+    .follow-icon a{
+        width: 40%;
+    }
+    .follow-icon{
+        width: 35%;
+    }
+    .project5{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:1400px) and (min-width:1024px) {
+    .body1{
+        width: unset;
+    }
+    .body-left{
+        width: 60%;
+    }
+    .skills{
+        display: unset;
+    }
+    .form{
+        width: unset;
+        margin: unset;
+    }
+    .footer-icon a{
+        width: 19%;
+    }
+    .follow-icon{
+        width: 35%;
     }
 }

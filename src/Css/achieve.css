@@ -13,7 +13,9 @@
 .body-achieve{
     /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
     background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
-
+}
+.achieve ul li{
+    margin: 25px;
 }
 .achieve p{
     text-align: initial;
@@ -21,8 +23,9 @@
 .achieve h3{
     color: purple;
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .date{
-    margin: 20px auto 0;
-    color: black;
+    margin: 35px 25px 10px;
+    color: red;
 }

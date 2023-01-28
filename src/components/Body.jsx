@@ -16,7 +16,7 @@ function Body(){
         <div className='body-left'>
             <h4>Hii , I'm Abhisek</h4>
             <h5>Front-end developer , Web Designer and a C++ programmer</h5>
-            <h6>Currently, I'm persuing B.E in Army Institute of Technology , Pune from Computer Science branch.</h6>
+            <h6>Currently, I'm persuing B.E from Army Institute of Technology, Pune from Computer Science branch.</h6>
             <div className='icons'>
               <div className='tooltip'>
                 <a href="https://www.instagram.com/denver_d_deniver/" target="_blank" className='insta'><i class="fa-brands fa-instagram-square" ></i></a>
