@@ -24,6 +24,7 @@ function Achieve() {
           used <strong>ReactJS</strong> , <strong>HTML</strong> , and
           <strong> CSS</strong>. Learn to work with colleagues / manager.
           Discussing things in meet with manager was the best thing. */}
+          <a className="a" href="https://drive.google.com/file/d/1pS6QQPPyFnRQpIXlpmmG94ZmH7kwsOXq/view?usp=sharing"style={{color:"green"}} target="_blank">Certificate</a>
         </p>
         <div className="date"><p>May 2022 - June 2022</p></div>
       </div>
