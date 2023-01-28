@@ -38,7 +38,7 @@ function App() {
         <Route path="/skill" element={<Skill />} />
         <Route path="/project" element={<Project />} />
         {/* <Route path="/education" element={<Body />} /> */}
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <ScrolTop />
       <Footer />

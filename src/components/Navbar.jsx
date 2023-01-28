@@ -14,8 +14,8 @@ function Navbar() {
                 <a className='a' href='#contact'>Contact</a> */}
                 <Link className='a' to="/skill">Skill</Link>
                 <Link className='a' to="/project">Project</Link>
-                <Link className='a' to="/contact">Contact</Link>
-                <a className="a" href={Resume} download>Resume</a>
+                {/* <Link className='a' to="/contact">Contact</Link> */}
+                <a className="a" href={Resume} download>Download Resume</a>
             </div>
         </div>
         {/* <div className='head-part2 head-elements'>
