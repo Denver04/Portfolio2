@@ -1,6 +1,7 @@
 import React from 'react';
 import "../Css/header.css";
 import { Link } from 'react-router-dom';
+import Resume from "../images/RESUME.pdf"
 
 function Navbar() {
   return (
@@ -14,10 +15,11 @@ function Navbar() {
                 <Link className='a' to="/skill">Skill</Link>
                 <Link className='a' to="/project">Project</Link>
                 <Link className='a' to="/contact">Contact</Link>
+                <a className="a" href={Resume} download>Resume</a>
             </div>
         </div>
-        {/* <div className='head-part2'>
-            <button>Change theme</button>
+        {/* <div className='head-part2 head-elements'>
+        <a className="a" href={Resume} download> Download Resume</a>
         </div> */}
     </div>
   )

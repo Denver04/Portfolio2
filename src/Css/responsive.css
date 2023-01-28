@@ -11,6 +11,11 @@
         width: unset;
         font-size: 35px;
     }
+    .head-elments .a{
+        margin: 10px 10px;
+        position: relative;
+        font-size: 22px;
+    }
     .icons{
         width: 75%;
     }
@@ -49,10 +54,6 @@
     }
     .achieve p{
         font-size: 25px;
-    }
-    .skills{
-        /* display: unset; */
-        /* margin: 0 18rem; */
     }
     .skill-bars{
         margin: 8vh 0vh 15vh 0;
@@ -142,6 +143,11 @@
     }
     .body-left{
         width: unset;
+    }
+    .head-elments .a{
+        margin: 10px 10px;
+        position: relative;
+        font-size: 22px;
     }
     .body-right{
         width: unset;
