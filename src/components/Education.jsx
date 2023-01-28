@@ -20,7 +20,7 @@ function Education() {
             <p>Kota ,Rajasthan</p>
         </div>
         <div className='metric'>
-            <h3 style={{marginBottom:"10px" , color:"green"}}>Metriculation</h3>
+            <h3 style={{marginBottom:"10px" , color:"green"}}>Matriculation</h3>
             <div style={{display:"flex", justifyContent:"space-between" }}><h4>Army Public School</h4><p>89.6%</p></div>
             <p>2017-2018</p>
             <p>Agra ,Uttar Pradesh</p>
