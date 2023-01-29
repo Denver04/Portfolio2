@@ -6,15 +6,15 @@ import Resume from "../images/RESUME.pdf"
 function Navbar() {
   return (
     
-    var header = document.getElementById("head-elments");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function() {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-      });
-    }
+//     var header = document.getElementById("head-elments");
+//     var btns = header.getElementsByClassName("btn");
+//     for (var i = 0; i < btns.length; i++) {
+//       btns[i].addEventListener("click", function() {
+//       var current = document.getElementsByClassName("active");
+//       current[0].className = current[0].className.replace(" active", "");
+//       this.className += " active";
+//       });
+//     }
     
     <div className='header'>
         <div className='head-part1'>
