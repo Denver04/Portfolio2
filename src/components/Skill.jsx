@@ -65,14 +65,14 @@ function Skill() {
                     <span></span>
                 </div>
             </div>
-            <div class="bar">
-                <div class="info">
-                    <span>MySQL</span>
-                </div>
-                <div class="progress-line mysql">
-                    <span></span>
-                </div>
-            </div>
+//             <div class="bar">
+//                 <div class="info">
+//                     <span>MySQL</span>
+//                 </div>
+//                 <div class="progress-line mysql">
+//                     <span></span>
+//                 </div>
+//             </div>
     </div>
 
         <div class="skill-bars" style={{height:"30%"}}>
