@@ -57,6 +57,6 @@ body{
     right: 0;
     top: 0px;
 }
-.a:hover::after , .a:hover::before{
+.active ,.a:hover::after , .a:hover::before{
     width: 100%;
 }
