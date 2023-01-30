@@ -102,10 +102,10 @@ html,body{
     width: 55%;
 }
 .bar .progress-line.react span{
-    width: 70%;
+    width: 55%;
 }
 .bar .progress-line.redux span{
-    width: 55%;
+    width: 35%;
 }
 .progress-line span::before{
   position: absolute;
