@@ -161,8 +161,8 @@ html,body{
     content: "55%";
 }
 .progress-line.react span::after{
-    content: "70%";
+    content: "55%";
 }
 .progress-line.redux span::after{
-    content: "45%";
+    content: "35%";
 }
