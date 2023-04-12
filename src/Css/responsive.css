@@ -11,11 +11,11 @@
         width: unset;
         font-size: 35px;
     }
-    .head-elments .a{
+    /* .head-elments .a{
         margin: 10px 10px;
         position: relative;
-        font-size: 22px;
-    }
+        font-size: 21px;
+    } */
     .icons{
         width: 75%;
     }
@@ -91,10 +91,15 @@
     }
     .header{
         padding: unset;
-        height: 12vh;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .head-elments{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -137,6 +142,9 @@
     .content p{
         font-size: 18px;
     }
+    .skills{
+        width: unset;
+    }
 }
 
 @media screen and (max-width:1004px) and (min-width:650px) {
@@ -150,11 +158,11 @@
     .body-left{
         width: unset;
     }
-    .head-elments .a{
+    /* .head-elments .a{
         margin: 10px 0px;
         position: relative;
         font-size: 22px;
-    }
+    } */
     .body-right{
         width: unset;
     }

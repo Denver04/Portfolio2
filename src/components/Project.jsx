@@ -12,27 +12,26 @@ function Project() {
         <div className="card">
           <div className="face face1">
             <div className="content">
-              <h2>Aimore</h2>
+              <h2>Agri-Cure</h2>
               <p>
-                It is a food website in which you can add or delete food item
-                from your cart. Not responsive though. I also implemented the
-                search system via name of item. Routing is also done.
+              This project was made for Solving <mark>India Hackathon</mark>. We provided the solution for the farmers to detect
+              the <mark>crop disease</mark>. You can select the image and then get the provided results with the solution and then you can act
+              accordingly. Fully responsive.
                 <div className="used">
                   <p>
-                    <strong>Used : </strong>HTML , CSS , Javascript , ReactJS ,
-                    and Redux.
+                    <strong>Used : </strong>CSS , ReactJS , Python , Rest Framework , Tensorflow
                   </p>
                 </div>
               </p>
               <div className="iccon">
-                <a
+                {/* <a
                   href="https://denver04.github.io/Aimore/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
-                </a>
-                <a href="https://github.com/Denver04/Aimore" target="_blank" className="abcs">
+                </a> */}
+                <a href="https://github.com/Denver04/gfg-hackthon" target="_blank" className="abcs">
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -42,6 +41,40 @@ function Project() {
             <h1>01</h1>
           </div>
         </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <h2>AI-Images</h2>
+              <p>
+              This website is capable of generating <mark>AI images</mark>. OpenAI help us to build this. This is a fully
+              responsive website and it is build using ReactJS as a frontend and NodeJS as backend. A smooth navbar is given.
+              Material-UI is also used.
+              </p>
+              <div className="used">
+                <p>
+                  <strong>Used : </strong>HTML , CSS , Javascript , ReactJS , and NodeJs.
+                </p>
+              </div>
+              <div className="iccon">
+                {/* <a
+                  href="https://denver-todo.netlify.app"
+                  target="_blank"
+                  className="links"
+                >
+                  <i class="fa-solid fa-link"></i>
+                </a> */}
+                <a href="https://github.com/Denver04/AeyeIMAGE" target="_blank" className="abcs">
+                  <i class="fa-solid fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="face face2">
+            <h1>02</h1>
+          </div>
+        </div>
+
 
         <div className="card">
           <div className="face face1">
@@ -73,7 +106,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>02</h1>
+            <h1>03</h1>
           </div>
         </div>
 
@@ -107,7 +140,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>03</h1>
+            <h1>04</h1>
           </div>
         </div>
 
@@ -140,109 +173,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>04</h1>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <h2>Shopping Website</h2>
-              <p>
-                A shopping website I made for an intern. It is very simple with
-                no high-fi UI. The texture is also kept to minimal as I made
-                this in one day.
-              </p>
-              <div className="used">
-                <p>
-                  <strong>Used : </strong>HTML , CSS , Javascript , and ReactJS.
-                </p>
-              </div>
-              <div className="iccon">
-                <a
-                  href="https://denver04.github.io/react-deploy/"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <a href="https://github.com/Denver04/Shopping-website" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="face face2">
             <h1>05</h1>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <h2>Simon Buzzer Game</h2>
-              <p>
-                A buzzer game in which we have to press the pop-up button
-                in sequence from beginning in each pop-up. If you break the
-                sequence it will give you a red buzzer. You can use this to
-                make your memory power stronger.
-              </p>
-              <div className="used">
-                <p>
-                  <strong>Used : </strong>HTML , CSS , and
-                  <mark>Javascript</mark>.
-                </p>
-              </div>
-              <div className="iccon">
-                <a
-                  href="https://denver04.github.io/HostingSite/"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <a href="https://github.com/Denver04/HostingSite" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="face face2">
-            <h1>06</h1>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <h2>Drum Kit</h2>
-              <p>
-                A simple music class I tried to make. In this you can either
-                click the drum or press the required keyboard button to listen
-                the sound.
-              </p>
-              <div className="used">
-                <p>
-                  <strong>Used : </strong>HTML , CSS , 
-                  <mark>Javascript</mark> , and <mark>JQuery</mark>.
-                </p>
-              </div>
-              <div className="iccon">
-                <a
-                  href="https://denver04.github.io/dice-drum/Drum%20Kit/"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <a href="https://github.com/Denver04/dice-drum/tree/main/Drum%20Kit" target="_blank" className="abcs">
-                  <i class="fa-solid fa-code"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="face face2">
-            <h1>07</h1>
           </div>
         </div>
 

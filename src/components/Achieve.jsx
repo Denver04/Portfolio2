@@ -13,9 +13,7 @@ function Achieve() {
         <ul style={{listStyle:"inside"}}>
             <li>I was hired as a Frontend(ReactJS) developer.</li>
             <li>Built the <a href="https://aiverse.netlify.app" style={{textDecoration:"none" , color:"#0e4ffd"}}>NFT website</a> for the company under the guidance of the manager.</li>
-            <li>Daily to Daily attending meeting which was taken by the manager in the evening time was an important part.</li>
             <li>I was doing my work under the direct guidance of the manager with my 2 colleagues.</li>
-            <li>Also get my first experience of using figma.</li>
             <li>For the website, I built the middle section , card section and the footer section using <strong>HTML</strong> , <strong>CSS</strong> , and
           <strong> ReactJS.</strong></li>
         </ul>

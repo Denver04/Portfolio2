@@ -16,7 +16,7 @@ function Skill() {
      data-aos-offset="0"><h1>My Knowledge in Languages</h1></div>
     <div className='skills'>
         <div class="skill-bars">
-            <h3>Front-end languages</h3>
+            <h3>Frontend languages</h3>
             <div class="bar">
                 <div class="info">
                     <span>HTML</span>
@@ -66,6 +66,44 @@ function Skill() {
                 </div>
             </div>
     </div>
+
+
+
+        <div class="skill-bars" style={{height:"30%"}}>
+            <h3>Backend languages</h3>
+            <div class="bar">
+                <div class="info">
+                    <span>NodeJs</span>
+                </div>
+                <div class="progress-line node">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>ExpressJs</span>
+                </div>
+                <div class="progress-line express">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>MongoDB</span>
+                </div>
+                <div class="progress-line mongo">
+                    <span></span>
+                </div>
+            </div>
+            {/* <div class="bar">
+                <div class="info">
+                    <span>ExpressJs</span>
+                </div>
+                <div class="progress-line express">
+                    <span></span>
+                </div>
+            </div> */}
+        </div>
 
         <div class="skill-bars" style={{height:"30%"}}>
             <h3>Programming Languages</h3>

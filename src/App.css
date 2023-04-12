@@ -10,6 +10,43 @@
   margin: 19rem auto ;
 }
 
+@media screen and (max-width:600px){
+  .header .bars{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-self: center;
+    margin: 15px 0;
+  }
+  .bars:hover{
+    cursor: pointer;
+  }
+  .hamburger{
+    display: inline-block;
+    height: 2.5px;
+    width: 30px;
+    background-color: black;
+    margin: 3px 0;
+  }
+  .unvisible{
+    height: 0px;
+    overflow: hidden;
+  }
+  .middle{
+    width: 80%;
+    /* background: black; */
+    height: auto;
+    align-items: baseline;
+    /* padding: 15px; */
+  }
+  .head-elments .a{
+    font-size: 20px;
+  }
+  
+  }
+
+
 /* <BallTriangle
         height={100}
         width={100}

@@ -14,9 +14,9 @@ function Body(){
     <div className='body'>
       <div className='body1' data-aos="zoom-in">
         <div className='body-left'>
-            <h4>Hii , I'm Abhisek</h4>
-            <h5>Front-end developer , Web Designer and a C++ programmer</h5>
-            <h6>Currently, I'm persuing B.E from Army Institute of Technology, Pune from Computer Science branch.</h6>
+            <h4>Hii, I'm Abhisek</h4>
+            <h5>MERN developer and a C++ programmer</h5>
+            <p>Currently, I'm persuing B.E from Army Institute of Technology, Pune from Computer Science branch.</p>
             <div className='icons'>
               <div className='tooltip'>
                 <a href="https://www.instagram.com/denver_d_deniver/" target="_blank" className='insta'><i class="fa-brands fa-instagram-square" ></i></a>

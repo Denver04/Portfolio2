@@ -37,9 +37,19 @@
     flex-direction: column;
     justify-content: center;
 }
-.body-left > h4 , h5 , h6{
-    padding: 13px 0;
+.body-left > h4{
+    padding: 15px 0;
     letter-spacing: 1px;
+}
+.body-left h5{
+  padding: 5px 0;
+  color: #7255a2;
+}
+.body-left p{
+  padding: 5px 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 .tooltip {
     position: relative;
