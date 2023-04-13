@@ -39,14 +39,14 @@ function Navbar() {
     <div className='header'>
         <div className='head-part1'>
             <div className={menu}>
-                <Link className='a' to="/">Home</Link>
+                <Link className='a' to="/" onClick={crossed}>Home</Link>
                 {/* <a className='a' href='#project'>Projects</a>
                 <a className='a' href='#education'>Education</a>
                 <a className='a' href='#contact'>Contact</a> */}
-                <Link className='a' to="/skill">Skills</Link>
-                <Link className='a' to="/project">Projects</Link>
+                <Link className='a' to="/skill" onClick={crossed}>Skills</Link>
+                <Link className='a' to="/project" onClick={crossed}>Projects</Link>
                 {/* <Link className='a' to="/contact">Contact</Link> */}
-                <a className="a" href={Resume} download>Download Resume</a>
+                <a className="a" href={Resume} download onClick={crossed}>Download Resume</a>
             </div>
         </div>
         {/* <div className='head-part2 head-elements'>
