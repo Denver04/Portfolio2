@@ -30,9 +30,9 @@ function Navbar() {
   const crossed = () => {
     setBar("hamburger unclicked");
     setMenu("head-elments unvisible");
-    setMainBar("bars middle");
+    // setMainBar("bars middle");
     setMenuSetClicked(!ismenuCLicked);
-    setBurger(!burger);
+    // setBurger(!burger);
   }
   
   return (
