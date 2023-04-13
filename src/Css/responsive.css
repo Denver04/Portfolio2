@@ -89,14 +89,7 @@
         margin-top: 9rem;
         padding: 8rem 0px;
     }
-    .header{
-        padding: unset;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+    
     .head-elments{
         display: flex;
         flex-direction: column;
@@ -221,5 +214,22 @@
     }
     .follow-icon{
         width: 35%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .header{
+        padding: unset;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .visible{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

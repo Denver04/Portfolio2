@@ -28,11 +28,11 @@ function Navbar() {
   }
 
   const crossed = () => {
-    setBar("hamburger unclicked");
+    setBar("hamburger clicked");
     setMenu("head-elments unvisible");
-    // setMainBar("bars middle");
+    setMainBar("bars middle");
     setMenuSetClicked(!ismenuCLicked);
-    // setBurger(!burger);
+    setBurger(!burger);
   }
   
   return (
@@ -60,7 +60,7 @@ function Navbar() {
           <span className={bar_class}></span>
         </div>
         :
-        <i class="fa-solid fa-circle-xmark fa-xl" style={{padding:"30px"}} onClick={crossed}></i>
+        <i class="fa-solid fa-circle-xmark fa-xl solidcross" style={{padding:"30px"}} onClick={crossed}></i>
         }
     </div>
   )
