@@ -21,21 +21,20 @@ function Project() {
                 accordingly. Fully responsive.
                 <div className="used">
                   <p>
-                    <strong>Used : </strong>CSS , ReactJS , Python , Rest
-                    Framework , Tensorflow
+                    <strong>Used : </strong>HTML , CSS , ReactJS , NodeJS , Express , Python , ML , and Tensorflow
                   </p>
                 </div>
               </p>
               <div className="iccon">
-                {/* <a
-                  href="https://denver04.github.io/Aimore/"
+                <a
+                  href="http://34.131.135.124/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
-                </a> */}
+                </a>
                 <a
-                  href="https://github.com/Denver04/gfg-hackthon"
+                  href="https://github.com/Denver04/leafx"
                   target="_blank"
                   className="abcs"
                 >

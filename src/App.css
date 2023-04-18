@@ -36,6 +36,14 @@
     background-color: black;
     margin: 3px 0;
   }
+  .fa-2xl {
+    font-size: 3em;
+    line-height: 1.03125em;
+  }
+  .fa-xl {
+    font-size: 2.5em;
+    line-height: 1.04167em;
+  }
   .unvisible{
     height: 0px;
     overflow: hidden;

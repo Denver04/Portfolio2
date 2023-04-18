@@ -25,15 +25,15 @@ html,body{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto 5rem;
-    width: 92%;
+    width: 95%;
 }
 .skill-bars{
   padding: 25px 30px;
-  width: 600px;
+  width: 46%;
   background: #fff;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
   border-radius: 10px;
-  margin: 8vh 8vh 15vh 0;
+  margin: 8vh 6vh 7vh 0;
 }
 .skill-bars .bar{
   margin: 20px 0;

@@ -43,9 +43,7 @@ function Navbar() {
         {
           burger ? 
           <div className={mainBar} onClick={clicked}>
-          <span className={bar_class}></span>
-          <span className={bar_class}></span>
-          <span className={bar_class}></span>
+          <i class="fa-solid fa-bars fa-2xl"></i>
         </div>
         :
         <i class="fa-solid fa-circle-xmark fa-xl solidcross" style={{padding:"30px"}} onClick={crossed}></i>

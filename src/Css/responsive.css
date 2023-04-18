@@ -56,9 +56,6 @@
     .achieve p{
         font-size: 25px;
     }
-    .skill-bars{
-        margin: 8vh 0vh 15vh 70px;
-    }
     .container{
         gap: 4rem 0;
         width: inherit;
@@ -136,7 +133,11 @@
         font-size: 18px;
     }
     .skills{
-        width: unset;
+        width: 800px;
+    }
+    .skill-bars{
+        margin: 8vh 4vh 7vh 4vh;
+        width: 100%;
     }
 }
 
@@ -151,11 +152,6 @@
     .body-left{
         width: unset;
     }
-    /* .head-elments .a{
-        margin: 10px 0px;
-        position: relative;
-        font-size: 22px;
-    } */
     .body-right{
         width: unset;
     }
@@ -165,6 +161,7 @@
     .skills{
         display: unset;
         margin: auto;
+        width: 600px;
     }
     .project{
         font-size: 1.2rem;
@@ -193,6 +190,10 @@
     .project5{
         width: 30%;
     }
+    .skill-bars{
+        margin: 8vh 4vh 7vh 4vh;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1400px) and (min-width:1024px) {
@@ -202,9 +203,9 @@
     .body-left{
         width: 60%;
     }
-    .skills{
+    /* .skills{
         display: unset;
-    }
+    } */
     .form{
         width: unset;
         margin: unset;
