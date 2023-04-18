@@ -14,12 +14,15 @@ function Project() {
             <div className="content">
               <h2>Agri-Cure</h2>
               <p>
-              This project was made for Solving <mark>India Hackathon</mark>. We provided the solution for the farmers to detect
-              the <mark>crop disease</mark>. You can select the image and then get the provided results with the solution and then you can act
-              accordingly. Fully responsive.
+                This project was made for Solving <mark>India Hackathon</mark>.
+                We provided the solution for the farmers to detect the{" "}
+                <mark>crop disease</mark>. You can select the image and then get
+                the provided results with the solution and then you can act
+                accordingly. Fully responsive.
                 <div className="used">
                   <p>
-                    <strong>Used : </strong>CSS , ReactJS , Python , Rest Framework , Tensorflow
+                    <strong>Used : </strong>CSS , ReactJS , Python , Rest
+                    Framework , Tensorflow
                   </p>
                 </div>
               </p>
@@ -31,7 +34,11 @@ function Project() {
                 >
                   <i class="fa-solid fa-link"></i>
                 </a> */}
-                <a href="https://github.com/Denver04/gfg-hackthon" target="_blank" className="abcs">
+                <a
+                  href="https://github.com/Denver04/gfg-hackthon"
+                  target="_blank"
+                  className="abcs"
+                >
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -47,13 +54,14 @@ function Project() {
             <div className="content">
               <h2>AI-Images</h2>
               <p>
-              This website is capable of generating <mark>AI images</mark>. OpenAI help us to build this. This is a fully
-              responsive website and it is build using ReactJS as a frontend and NodeJS as backend. A smooth navbar is given.
-              Material-UI is also used.
+                This website is capable of generating <mark>AI images</mark>. A
+                user friendly and easy to use website. This is a fully
+                responsive website and it is build using ReactJS and NodeJS.
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong>HTML , CSS , Javascript , ReactJS , and NodeJs.
+                  <strong>Used : </strong>HTML , CSS , Javascript , ReactJS ,
+                  and NodeJs.
                 </p>
               </div>
               <div className="iccon">
@@ -64,7 +72,11 @@ function Project() {
                 >
                   <i class="fa-solid fa-link"></i>
                 </a> */}
-                <a href="https://github.com/Denver04/AeyeIMAGE" target="_blank" className="abcs">
+                <a
+                  href="https://github.com/Denver04/AeyeIMAGE"
+                  target="_blank"
+                  className="abcs"
+                >
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -74,7 +86,6 @@ function Project() {
             <h1>02</h1>
           </div>
         </div>
-
 
         <div className="card">
           <div className="face face1">
@@ -99,7 +110,11 @@ function Project() {
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://github.com/Denver04/Todo" target="_blank" className="abcs">
+                <a
+                  href="https://github.com/Denver04/Todo"
+                  target="_blank"
+                  className="abcs"
+                >
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -133,7 +148,11 @@ function Project() {
                 >
                   <i class="fa-solid fa-link"></i>
                 </a>
-                <a href="https://github.com/Denver04/NoInstaClone" target="_blank" className="abcs">
+                <a
+                  href="https://github.com/Denver04/NoInstaClone"
+                  target="_blank"
+                  className="abcs"
+                >
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -147,26 +166,29 @@ function Project() {
         <div className="card">
           <div className="face face1">
             <div className="content">
-              <h2>Google keep Clone</h2>
+              <h2>Make Password</h2>
               <p>
-                It is a clone of Google Keep app. You can add or delete the
-                notes. A very similar UI to Keep app is given. Background
-                texture is also provided.I've also added some icons from <mark>Material-UI</mark>.
+                A website where a user can easily generate a strong password
+                with the help of some checkbox and can copy it. You can create any length of password and it is fully responsive.
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong>HTML , CSS , Javascript , and ReactJS.
+                  <strong>Used : </strong>HTML , CSS , and Javascript.
                 </p>
               </div>
               <div className="iccon">
-                {/* <a
-                  href="https://facebook.com"
+                <a
+                  href="https://makepass.netlify.app/"
                   target="_blank"
                   className="links"
                 >
                   <i class="fa-solid fa-link"></i>
-                </a> */}
-                <a href="https://github.com/Denver04/Keeper" target="_blank" className="abcs">
+                </a>
+                <a
+                  href="https://github.com/Denver04/Password-generator"
+                  target="_blank"
+                  className="abcs"
+                >
                   <i class="fa-solid fa-code"></i>
                 </a>
               </div>
@@ -176,7 +198,6 @@ function Project() {
             <h1>05</h1>
           </div>
         </div>
-
       </div>
     </>
   );

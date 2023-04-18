@@ -95,14 +95,6 @@ function Skill() {
                     <span></span>
                 </div>
             </div>
-            {/* <div class="bar">
-                <div class="info">
-                    <span>ExpressJs</span>
-                </div>
-                <div class="progress-line express">
-                    <span></span>
-                </div>
-            </div> */}
         </div>
 
         <div class="skill-bars" style={{height:"30%"}}>

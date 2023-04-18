@@ -17,11 +17,6 @@ function Achieve() {
             <li>For the website, I built the middle section , card section and the footer section using <strong>HTML</strong> , <strong>CSS</strong> , and
           <strong> ReactJS.</strong></li>
         </ul>
-          {/* I was the one of the main front-end developer for the company. We
-          built the NFT website Site whose front-end design was under my team. I
-          used <strong>ReactJS</strong> , <strong>HTML</strong> , and
-          <strong> CSS</strong>. Learn to work with colleagues / manager.
-          Discussing things in meet with manager was the best thing. */}
           <a className="a" href="https://drive.google.com/file/d/1pS6QQPPyFnRQpIXlpmmG94ZmH7kwsOXq/view?usp=sharing"style={{color:"green"}} target="_blank">Certificate</a>
         </p>
         <div className="date"><p>May 2022 - June 2022</p></div>
