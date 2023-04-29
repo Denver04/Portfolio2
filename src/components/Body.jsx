@@ -34,7 +34,7 @@ function Body(){
               </div>
 
               <div className='tooltip'>
-                <a href="https://www.linkedin.com/in/denver-abhisek-088592217/" target="_blank" className='linkedin'><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://www.linkedin.com/in/abhisekkumarsingh/" target="_blank" className='linkedin'><i class="fa-brands fa-linkedin" ></i></a>
                 <span class="tooltiptext">linkedin</span>
               </div>
             </div>
