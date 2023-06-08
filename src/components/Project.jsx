@@ -27,7 +27,7 @@ function Project() {
               </p>
               <div className="iccon">
                 <a
-                  href="http://34.131.135.124/"
+                  href="http://34.131.44.145/"
                   target="_blank"
                   className="links"
                 >
