@@ -89,6 +89,42 @@ function Project() {
         <div className="card">
           <div className="face face1">
             <div className="content">
+              <h2>Performance Detector</h2>
+              <p>
+                This website will help to detect the <mark>performace of the employee</mark> based on the performance he/she performed in the past. This is a fully responsive website and it is build using ReactJS and NodeJS. Tesnorflow is used for the ML part.
+              </p>
+              <div className="used">
+                <p>
+                  <strong>Used : </strong> Javascript , ReactJS ,
+                   NodeJs, and Tensorflow.
+                </p>
+              </div>
+              <div className="iccon">
+                {/* <a
+                  href="https://denver-todo.netlify.app"
+                  target="_blank"
+                  className="links"
+                >
+                  <i class="fa-solid fa-link"></i>
+                </a> */}
+                <a
+                  href="https://github.com/Denver04/Performance-Detector"
+                  target="_blank"
+                  className="abcs"
+                >
+                  <i class="fa-solid fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="face face2">
+            <h1>03</h1>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
               <h2>ToDo-Website</h2>
               <p>
                 A todo app in which you can add or delete your todos. A{" "}
@@ -120,7 +156,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>03</h1>
+            <h1>04</h1>
           </div>
         </div>
 
@@ -158,7 +194,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>04</h1>
+            <h1>05</h1>
           </div>
         </div>
 
@@ -194,7 +230,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>05</h1>
+            <h1>06</h1>
           </div>
         </div>
       </div>
