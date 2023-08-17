@@ -136,7 +136,10 @@
         font-size: 15px;
     }
     .container .card{
-        width: 400px;
+        width: 340px;
+    }
+    .content{
+        top: -50px;
     }
     .form{
         width:80%;
@@ -152,7 +155,7 @@
         margin: 20px;
     }
     .content p{
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .skill-bars{
