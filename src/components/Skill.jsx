@@ -51,6 +51,14 @@ function Skill() {
             </div>
             <div class="bar">
                 <div class="info">
+                    <span>NextJs</span>
+                </div>
+                <div class="progress-line next">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
                     <span>Redux</span>
                 </div>
                 <div class="progress-line redux">
@@ -95,10 +103,18 @@ function Skill() {
                     <span></span>
                 </div>
             </div>
+            <div class="bar">
+                <div class="info">
+                    <span>GraphQL</span>
+                </div>
+                <div class="progress-line graph">
+                    <span></span>
+                </div>
+            </div>
         </div>
 
         <div class="skill-bars" style={{height:"30%"}}>
-            <h3>Programming Languages</h3>
+            <h3>Programming</h3>
             <div class="bar">
                 <div class="info">
                     <span>C++</span>
@@ -112,6 +128,14 @@ function Skill() {
                     <span>Python</span>
                 </div>
                 <div class="progress-line python">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Object Oriented Programming</span>
+                </div>
+                <div class="progress-line oop">
                     <span></span>
                 </div>
             </div>

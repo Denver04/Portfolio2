@@ -1,25 +1,114 @@
-import React from "react";
+import React , { useEffect } from "react";
 import "../Css/achieve.css";
+import certificate from "../images/certificate.pdf";
+import DownloadIcon from "@mui/icons-material/Download";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 function Achieve() {
+  
+  useEffect(()=>{
+    Aos.init({duration:1500})
+  } , [])
+
   return (
-    <div className="body-achieve" style={{backgroundColor:"#efefef" , padding:"40px"}}>
+    <div
+      className="body-achieve"
+      style={{ backgroundColor: "#efefef", padding: "40px" }}
+    >
       <div className="project3">
         <h1>Experience</h1>
       </div>
-      <div className="achieve">
+      <div className="achieve" data-aos="zoom-in">
+        <h3>Edge N Roots</h3>
+        <p>
+          <ul style={{ listStyle: "inside" }}>
+            <li>I was hired as a Full Stack developer.</li>
+            <li>
+              Created multiple user interfaces using <strong>ReactJs, </strong> <strong>TypeScript, </strong> and <strong>Material-UI</strong> and constructed various components as part of my internship.
+            </li>
+            <li>
+            Successfully designed and developed an entire website using <strong>NextJS, </strong> <strong>JavaScript, </strong> <strong>CSS, </strong> and <strong>Tailwind CSS.</strong>
+            </li>
+            <li>
+            Worked closely with the development team to effectively add my work to the main project, demonstrating strong teamwork and communication skills.
+            </li>
+          </ul>
+          {/* <div className="cert_down">
+            <a
+              className="certificate"
+              href="https://drive.google.com/file/d/1pS6QQPPyFnRQpIXlpmmG94ZmH7kwsOXq/view?usp=sharing"
+              style={{ color: "green" }}
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <a className="download" href={certificate} download>
+              {" "}
+              <DownloadIcon
+                sx={{
+                  fontSize: 32,
+                }}
+                color="primary"
+              />
+            </a>
+          </div> */}
+        </p>
+        <div className="date">
+          <p>May 2023 - Ongoing</p>
+        </div>
+      </div>
+
+      <div className="achieve" data-aos="zoom-in">
         <h3>Alecado System</h3>
         <p>
-        <ul style={{listStyle:"inside"}}>
+          <ul style={{ listStyle: "inside" }}>
             <li>I was hired as a Frontend(ReactJS) developer.</li>
-            <li>Built the <a href="https://aiverse.netlify.app" style={{textDecoration:"none" , color:"#0e4ffd"}}>NFT website</a> for the company under the guidance of the manager.</li>
-            <li>I was doing my work under the direct guidance of the manager with my 2 colleagues.</li>
-            <li>For the website, I built the middle section , card section and the footer section using <strong>HTML</strong> , <strong>CSS</strong> , and
-          <strong> ReactJS.</strong></li>
-        </ul>
-          <a className="a" href="https://drive.google.com/file/d/1pS6QQPPyFnRQpIXlpmmG94ZmH7kwsOXq/view?usp=sharing"style={{color:"green"}} target="_blank">Certificate</a>
+            <li>
+              Leveraged ReactJS and JavaScript to create a dynamic and engaging {" "}
+              <a
+                href="https://aiverse.netlify.app"
+                style={{ textDecoration: "none", color: "#0e4ffd" , fontWeight: "bold" }}
+                
+              >
+                NFT website
+              </a>{" "}
+              that effectively showcased the company's NFT offerings.
+            </li>
+            <li>
+              Worked with two teammates to help everyone work together better,
+              making the project go smoother and work better overall.
+            </li>
+            <li>
+              Responsible for constructing the central-section, cards, and footer-section 
+              of the website using a combination of{" "}
+              <strong>HTML</strong> , <strong>CSS</strong> , and
+              <strong> ReactJS.</strong>
+            </li>
+          </ul>
+          <div className="cert_down">
+            <a
+              className="certificate"
+              href="https://drive.google.com/file/d/1pS6QQPPyFnRQpIXlpmmG94ZmH7kwsOXq/view?usp=sharing"
+              style={{ color: "green" }}
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <a className="download" href={certificate} download>
+              {" "}
+              <DownloadIcon
+                sx={{
+                  fontSize: 32,
+                }}
+                color="primary"
+              />
+            </a>
+          </div>
         </p>
-        <div className="date"><p>May 2022 - June 2022</p></div>
+        <div className="date">
+          <p>May 2022 - June 2022</p>
+        </div>
       </div>
     </div>
   );

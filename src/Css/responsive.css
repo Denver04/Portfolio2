@@ -1,8 +1,15 @@
 @media screen and (max-width:600px){
-    body{
+    .head-part1{
+        width: unset;
+        margin: 0;
+    }
+    .header .bars{
+        width: unset;
+    }
+    /* body{
         display: flex;
         width: 221%;
-    }
+    } */
     .body1{
         width: unset;
         flex-direction: column-reverse;
@@ -89,9 +96,9 @@
     
     .head-elments{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .project5{  
         width: 33%;
@@ -223,9 +230,9 @@
         padding: unset;
         height: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .visible{
         display: flex;

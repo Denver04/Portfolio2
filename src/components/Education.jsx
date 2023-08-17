@@ -1,12 +1,19 @@
-import React from 'react';
+import React , { useEffect } from 'react';
 import "../Css/education.css";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 function Education() {
+    
+  useEffect(()=>{
+    Aos.init({duration:1500})
+  } , [])
+
   return (
     <>
     <div className='project3 project4'><h1>Education </h1></div>
     <div className='top-edu'>
-    <div className='education'>
+    <div className='education' data-aos="fade-in">
         <div className='college'>
             <h3 style={{marginBottom:"10px" , color:"#462bed"}}>Bachelor of Engineering</h3>
             <div style={{display:"flex", justifyContent:"space-between" }}><h4>Army Institue of technology</h4><p>...</p></div>

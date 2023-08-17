@@ -100,10 +100,13 @@ html,body{
     width: 75%;
 }
 .bar .progress-line.js span{
-    width: 55%;
+    width: 80%;
 }
 .bar .progress-line.react span{
-    width: 55%;
+    width: 70%;
+}
+.bar .progress-line.next span{
+  width: 60%;
 }
 .bar .progress-line.redux span{
     width: 35%;
@@ -116,6 +119,12 @@ html,body{
 }
 .bar .progress-line.express span{
   width: 50%;
+}
+.bar .progress-line.graph span{
+  width: 35%;
+}
+.bar .progress-line.oop span{
+  width: 80%;
 }
 .progress-line span::before{
   position: absolute;
@@ -168,10 +177,13 @@ html,body{
     content: "75%";
 }
 .progress-line.js span::after{
-    content: "55%";
+    content: "80%";
 }
 .progress-line.react span::after{
-    content: "55%";
+    content: "70%";
+}
+.progress-line.next span::after{
+  content: "60%";
 }
 .progress-line.redux span::after{
     content: "45%";
@@ -184,4 +196,10 @@ html,body{
 }
 .progress-line.express span::after{
   content: "50%";
+}
+.progress-line.graph span::after{
+  content: "35%";
+}
+.progress-line.oop span::after{
+  content: "80%";
 }

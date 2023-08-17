@@ -29,3 +29,28 @@
     margin: 35px 25px 10px;
     color: red;
 }
+.certificate{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 25px ;
+    font-weight: bold;
+}
+.certificate:hover{
+    text-decoration: underline;
+}
+.cert_down{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    position: relative;
+}
+.download{
+    border-radius: 20px;
+    padding: 4px 5px;
+    align-items: center;
+    display: flex;
+}
+.download:hover{
+    background-color: rgb(198, 199, 198);
+}

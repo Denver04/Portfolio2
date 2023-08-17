@@ -37,8 +37,6 @@ function App() {
         <Route path="/" element={<Body />} />
         <Route path="/skill" element={<Skill />} />
         <Route path="/project" element={<Project />} />
-        {/* <Route path="/education" element={<Body />} /> */}
-        {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
       <ScrolTop />
       <Footer />

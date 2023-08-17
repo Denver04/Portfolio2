@@ -1,8 +1,11 @@
 import React from "react";
 import "../Css/project.css";
 import { Link } from "react-router-dom";
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 function Project() {
+
   return (
     <>
       <div className="project project-head">
@@ -125,6 +128,41 @@ function Project() {
         <div className="card">
           <div className="face face1">
             <div className="content">
+              <h2>Growingg</h2>
+              <p>
+                This website is something similar to any social media website but is shown in different way. You can see the posts in the both list and grid view. This is a fully responsive website and it is build using NextJS. No CSS framework is used.
+              </p>
+              <div className="used">
+                <p>
+                  <strong>Used : </strong> Javascript , NextJS , CSS , and Unsplash API .
+                </p>
+              </div>
+              <div className="iccon">
+                <a
+                  href="https://growingg.netlify.app"
+                  target="_blank"
+                  className="links"
+                >
+                  <i class="fa-solid fa-link"></i>
+                </a>
+                <a
+                  href="https://github.com/Denver04/Groww"
+                  target="_blank"
+                  className="abcs"
+                >
+                  <i class="fa-solid fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="face face2">
+            <h1>04</h1>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
               <h2>ToDo-Website</h2>
               <p>
                 A todo app in which you can add or delete your todos. A{" "}
@@ -156,47 +194,10 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>04</h1>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <h2>Insta Clone</h2>
-              <p>
-                A website similar to Instagram in which you can like the image
-                by either clicking the like button or double tapping over image.
-                It is fully responsive. On each refesh likes will come to its
-                initial value.
-              </p>
-              <div className="used">
-                <p>
-                  <strong>Used : </strong>HTML , CSS , Javascript , and ReactJS.
-                </p>
-              </div>
-              <div className="iccon">
-                <a
-                  href="https://denver04.github.io/NoInstaClone/"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <a
-                  href="https://github.com/Denver04/NoInstaClone"
-                  target="_blank"
-                  className="abcs"
-                >
-                  <i class="fa-solid fa-code"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="face face2">
             <h1>05</h1>
           </div>
         </div>
+
 
         <div className="card">
           <div className="face face1">
