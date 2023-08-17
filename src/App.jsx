@@ -10,7 +10,7 @@ import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import "../src/Css/responsive.css";
 import { useEffect , useState} from 'react';
 import { BallTriangle } from 'react-loader-spinner';
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader"
+import HashLoader from "react-spinners/HashLoader"
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
     <div className="App">
     {
       loading ? 
-      <ClimbingBoxLoader color='#5a55f3' style={{display:"flex" , alignItems:"center" , justifyContent:"center" }} />
+      <HashLoader color='#8e09db' style={{display:"flex" , alignItems:"center" , justifyContent:"center" }} />
         :
         <>
         <BrowserRouter>

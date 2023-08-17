@@ -14,7 +14,7 @@ function Achieve() {
   return (
     <div
       className="body-achieve"
-      style={{ backgroundColor: "#efefef", padding: "40px" }}
+      style={{ backgroundColor: "#efefef"}}
     >
       <div className="project3">
         <h1>Experience</h1>
