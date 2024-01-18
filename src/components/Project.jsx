@@ -1,13 +1,13 @@
 import React from "react";
 import "../Css/project.css";
 import { Link } from "react-router-dom";
-import Aos from 'aos';
-import "aos/dist/aos.css"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { PageWrapper } from "./PageWrapper/PageWrapper";
 
 function Project() {
-
   return (
-    <>
+    <PageWrapper title="Project" description="project page">
       <div className="project project-head">
         <h1>Projects</h1>
       </div>
@@ -24,7 +24,8 @@ function Project() {
                 accordingly. Fully responsive.
                 <div className="used">
                   <p>
-                    <strong>Used : </strong>HTML , CSS , ReactJS , NodeJS , Express , Python , ML , and Tensorflow
+                    <strong>Used : </strong>HTML , CSS , ReactJS , NodeJS ,
+                    Express , Python , ML , and Tensorflow
                   </p>
                 </div>
               </p>
@@ -94,12 +95,16 @@ function Project() {
             <div className="content">
               <h2>Performance Detector</h2>
               <p>
-                This website will help to detect the <mark>performace of the employee</mark> based on the performance he/she performed in the past. This is a fully responsive website and it is build using ReactJS and NodeJS. Tesnorflow is used for the ML part.
+                This website will help to detect the{" "}
+                <mark>performace of the employee</mark> based on the performance
+                he/she performed in the past. This is a fully responsive website
+                and it is build using ReactJS and NodeJS. Tesnorflow is used for
+                the ML part.
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong> Javascript , ReactJS ,
-                   NodeJs, and Tensorflow.
+                  <strong>Used : </strong> Javascript , ReactJS , NodeJs, and
+                  Tensorflow.
                 </p>
               </div>
               <div className="iccon">
@@ -130,11 +135,15 @@ function Project() {
             <div className="content">
               <h2>Growingg</h2>
               <p>
-                This website is something similar to any social media website but is shown in different way. You can see the posts in the both list and grid view. This is a fully responsive website and it is build using NextJS. No CSS framework is used.
+                This website is something similar to any social media website
+                but is shown in different way. You can see the posts in the both
+                list and grid view. This is a fully responsive website and it is
+                build using NextJS. No CSS framework is used.
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong> Javascript , NextJS , CSS , and Unsplash API .
+                  <strong>Used : </strong> Javascript , NextJS , CSS , and
+                  Unsplash API .
                 </p>
               </div>
               <div className="iccon">
@@ -198,14 +207,14 @@ function Project() {
           </div>
         </div>
 
-
         <div className="card">
           <div className="face face1">
             <div className="content">
               <h2>Make Password</h2>
               <p>
                 A website where a user can easily generate a strong password
-                with the help of some checkbox and can copy it. You can create any length of password and it is fully responsive.
+                with the help of some checkbox and can copy it. You can create
+                any length of password and it is fully responsive.
               </p>
               <div className="used">
                 <p>
@@ -235,7 +244,7 @@ function Project() {
           </div>
         </div>
       </div>
-    </>
+    </PageWrapper>
   );
 }
 
