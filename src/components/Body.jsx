@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import main from "../images/main2.jpg";
+import main from "../images/main.jpg";
 import "../Css/body.css";
 import Education from "./Education";
 import Achieve from "./Achieve";
