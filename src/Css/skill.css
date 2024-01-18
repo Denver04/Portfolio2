@@ -17,15 +17,14 @@ body {
   /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   scroll-behavior: smooth;
 }
-::selection {
-  color: #fff;
-  background: #6665ee;
-}
+
 .skills {
+  gap: 4rem;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto 5rem;
+  margin: 4rem auto;
   width: 95%;
+  justify-content: space-evenly;
   height: auto;
 }
 .skill-bars {
@@ -34,7 +33,6 @@ body {
   background: #fff;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  margin: 8vh 6vh 7vh 0;
 }
 .skill-bars .bar {
   display: flex;

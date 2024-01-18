@@ -7,6 +7,7 @@ import CodeIcon from "@mui/icons-material/Code";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { PageWrapper } from "./PageWrapper/PageWrapper";
+import { Typewriter } from 'react-simple-typewriter'
 
 function Body() {
   useEffect(() => {
@@ -17,12 +18,21 @@ function Body() {
       <div className="body">
         <div className="body1" data-aos="zoom-in">
           <div className="body-left">
-            <h4>Hii, I'm Abhisek</h4>
-            <h5>MERN developer and C++ Programmer</h5>
+          <h3>Hii, I'm Abhisek Kumar Singh</h3>
+          <span style={{ color: '#a12f2f', fontWeight: 'bold' }}>
+          <Typewriter
+            words={['MERN Developer', 'C++ Programmer', 'Currently Learning Rust']}
+            loop={false}
+            cursor
+            cursorStyle='|'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            />
+            </span>
             <p>
-              Currently, I'm persuing B.E from Computer Engineering branch from
-              Army Institute of Technology, Pune and right now I'm in fourth
-              year.
+              Currently, I'm a fourth year Computer Science student persuing B.E from
+              Army Institute of Technology, Pune.
             </p>
             <div className="icons">
               <div className="tooltip">

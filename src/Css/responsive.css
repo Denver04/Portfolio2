@@ -18,6 +18,12 @@
         width: unset;
         font-size: 35px;
     }
+    .body-left h3{
+        font-size: 20px;
+    }
+    .body-left span{
+        font-size: 18px;
+    }
     .achieve{
         margin: unset;
         padding: unset;

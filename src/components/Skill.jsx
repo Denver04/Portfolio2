@@ -47,7 +47,7 @@ function Skill() {
           </div>
         </div>
 
-        <div class="skill-bars" data-aos="zoom-in">
+        <div class="skill-bars">
           <h3>Backend</h3>
           <hr style={{border: "1px solid #ece6e6"}}/>
           <div class="bar">
@@ -58,7 +58,7 @@ function Skill() {
           </div>
         </div>
 
-        <div class="skill-bars" data-aos="zoom-in">
+        <div class="skill-bars">
           <h3>Programming</h3>
           <hr style={{border: "1px solid #ece6e6"}}/>
           <div class="bar">
@@ -68,7 +68,7 @@ function Skill() {
           </div>
         </div>
 
-        <div class="skill-bars" data-aos="zoom-in">
+        <div class="skill-bars">
           <h3>Tools Used</h3>
           <hr style={{border: "1px solid #ece6e6"}}/>
           <div class="bar">
