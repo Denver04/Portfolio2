@@ -43,11 +43,10 @@ body {
   gap: 2.5rem;
   margin: 20px 0;
 }
-.skill-bars h3{
+.skill-bars h3 {
   font-size: 1.5rem;
   letter-spacing: 0.6px;
 }
-.bar i{
+.bar i {
   font-size: 4rem;
 }
-
