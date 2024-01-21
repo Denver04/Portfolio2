@@ -47,9 +47,7 @@
 .tooltip {
     position: relative;
     display: inline-block;
-    /* border-bottom: 1px dotted black; */
-    width: 14%;
-    padding: 4px;
+    padding: 0.25rem 0.75rem;
     text-align: center;
     background-color: snow;
     box-sizing: border-box;
