@@ -42,30 +42,39 @@ function Navbar() {
         </a>
         <div className={menu}>
           <NavLink className="a" to="/" onClick={crossed}>
-            <HomeOutlinedIcon sx={{
-              fontSize: 32
-            }} />
+            <HomeOutlinedIcon
+              sx={{
+                fontSize: 32,
+              }}
+            />
             Home
           </NavLink>
           <NavLink className="a" to="/skill" onClick={crossed}>
             {" "}
-            <TerminalIcon sx={{
-              fontSize: 32
-            }} />{" "}
+            <TerminalIcon
+              sx={{
+                fontSize: 32,
+              }}
+            />{" "}
             Skills
           </NavLink>
           <NavLink className="a" to="/project" onClick={crossed}>
             {" "}
-            <StorageIcon sx={{
-              fontSize: 32
-            }} />{" "}
+            <StorageIcon
+              sx={{
+                fontSize: 32,
+              }}
+            />{" "}
             Projects
           </NavLink>
           <a className="a" href={Resume} download onClick={crossed}>
             {" "}
-            <DownloadIcon sx={{
-              fontSize: 32
-            }} /> Resume
+            <DownloadIcon
+              sx={{
+                fontSize: 32,
+              }}
+            />{" "}
+            Resume
           </a>
         </div>
       </div>

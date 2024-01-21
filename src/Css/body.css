@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-/* .body{ */
-    /* display: flex;
-    justify-content: space-around;
-    width: 80%;
-    margin: 25vh auto 0;
-    height: 75vh;
-    font-style: p; */
-/* } */
 .body1{
   display: flex;
     justify-content: space-around;
@@ -14,6 +6,7 @@
     width: 80%;
     margin: 10vh auto 10vh;
     /* height: 75vh; */
+    /* min-height: auto; */
 }
 .body-right{
     width: 30%;

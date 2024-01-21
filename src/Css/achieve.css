@@ -1,4 +1,5 @@
-.achieve{
+.achieve, .achieve2{
+    position: relative;
     width: auto;
     text-align: center;
     letter-spacing: 0.7px;
@@ -9,24 +10,69 @@
     margin: 10vh 8vh;
     background-color: white;
     border-radius: 10px;
+    width: 42%;
+    z-index: 999;
+}
+.achieve::before{
+    content: "" ;
+    position: absolute;
+    background: url("../images/edge_n_roots_logo.jpeg") no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    /* background-color: rgb(68, 195, 238); */
+    z-index: 1000;
+    transition: 0.5s ease-in-out;
+}
+.achieve2::before{
+    content: "" ;
+    position: absolute;
+    background: url("../images/alecado.jpeg") no-repeat center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background-color: rgb(241, 243, 243);
+    z-index: 1000;
+    transition: 0.5s ease-in-out;
+}
+.achieve2:hover::before,
+.achieve:hover::before{
+    height: 0%;
 }
 .body-achieve{
     /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
     background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
 }
-.achieve ul li{
-    margin: 25px;
+.achieve-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.achieve p{
+.achieve ul li, .achieve2 ul li{
+    margin: 15px;
+}
+.achieve p, .achieve2 p{
     text-align: initial;
 }
-.achieve h3{
+.achieve h3, .achieve2 h3{
     color: purple;
     margin-bottom: 10px;
     font-size: 30px;
 }
 .date{
-    margin: 35px 25px 10px;
+    margin: 15px 25px 10px;
     color: red;
 }
 .certificate{
@@ -52,8 +98,5 @@
     display: flex;
 }
 .download:hover{
-    background-color: rgb(198, 199, 198);
-}
-.body-achieve{
-    padding: 20px;
+    background-color: rgb(234, 235, 234);
 }
