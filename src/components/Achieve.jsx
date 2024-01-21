@@ -17,75 +17,79 @@ function Achieve() {
         <h1>Experience</h1>
       </div>
       <div className="achieve-container" data-aos="zoom-in">
-      <div className="achieve">
-        <div style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "10px",
-        }}>
-          <h3>Edge N Roots</h3>
+        <div className="achieve">
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "10px",
+            }}
+          >
+            <h3>Edge N Roots</h3>
+          </div>
+          <p>
+            <ul style={{ listStyle: "inside" }}>
+              <li>I was hired as a Full Stack developer.</li>
+              <li>
+                Created multiple user interfaces using{" "}
+                <strong>ReactJs, </strong> <strong>TypeScript, </strong> and{" "}
+                <strong>Material-UI</strong> and constructed various components
+                as part of my internship.
+              </li>
+              <li>
+                Successfully designed and developed an entire website using{" "}
+                <strong>NextJS, </strong> <strong>JavaScript, </strong>{" "}
+                <strong>CSS, </strong> and <strong>Tailwind CSS.</strong>
+              </li>
+              <li>
+                Worked closely with the development team to effectively add my
+                work to the main project, demonstrating strong teamwork and
+                communication skills.
+              </li>
+            </ul>
+          </p>
+          <div className="date">
+            <p>May 2023 - Ongoing</p>
+          </div>
         </div>
-        <p>
-          <ul style={{ listStyle: "inside" }}>
-            <li>I was hired as a Full Stack developer.</li>
-            <li>
-              Created multiple user interfaces using <strong>ReactJs, </strong>{" "}
-              <strong>TypeScript, </strong> and <strong>Material-UI</strong> and
-              constructed various components as part of my internship.
-            </li>
-            <li>
-              Successfully designed and developed an entire website using{" "}
-              <strong>NextJS, </strong> <strong>JavaScript, </strong>{" "}
-              <strong>CSS, </strong> and <strong>Tailwind CSS.</strong>
-            </li>
-            <li>
-              Worked closely with the development team to effectively add my
-              work to the main project, demonstrating strong teamwork and
-              communication skills.
-            </li>
-          </ul>
-        </p>
-        <div className="date">
-          <p>May 2023 - Ongoing</p>
-        </div>
-      </div>
 
-      <div className="achieve2">
-        <h3>Alecado System</h3>
-        <p>
-          <ul style={{ listStyle: "inside" }}>
-            <li>I was hired as a Frontend(ReactJS) developer.</li>
-            <li>
-              Leveraged ReactJS and JavaScript to create a dynamic and engaging{" "}
-              <a
-                href="https://aiverse.netlify.app"
-                style={{
-                  textDecoration: "none",
-                  color: "#0e4ffd",
-                  fontWeight: "bold",
-                }}
-              >
-                NFT website
-              </a>{" "}
-              that effectively showcased the company's NFT offerings.
-            </li>
-            <li>
-              Worked with two teammates to help everyone work together better,
-              making the project go smoother and work better overall.
-            </li>
-            <li>
-              Responsible for constructing the central-section, cards, and
-              footer-section of the website using a combination of{" "}
-              <strong>HTML</strong> , <strong>CSS</strong> , and
-              <strong> ReactJS.</strong>
-            </li>
-          </ul>
-        </p>
-        <div className="date">
-          <p>May 2022 - June 2022</p>
-        </div>
-        <div className="cert_down">
+        <div className="achieve2">
+          <h3>Alecado System</h3>
+          <p>
+            <ul style={{ listStyle: "inside" }}>
+              <li>I was hired as a Frontend(ReactJS) developer.</li>
+              <li>
+                Leveraged ReactJS and JavaScript to create a dynamic and
+                engaging{" "}
+                <a
+                  href="https://aiverse.netlify.app"
+                  style={{
+                    textDecoration: "none",
+                    color: "#0e4ffd",
+                    fontWeight: "bold",
+                  }}
+                >
+                  NFT website
+                </a>{" "}
+                that effectively showcased the company's NFT offerings.
+              </li>
+              <li>
+                Worked with two teammates to help everyone work together better,
+                making the project go smoother and work better overall.
+              </li>
+              <li>
+                Responsible for constructing the central-section, cards, and
+                footer-section of the website using a combination of{" "}
+                <strong>HTML</strong> , <strong>CSS</strong> , and
+                <strong> ReactJS.</strong>
+              </li>
+            </ul>
+          </p>
+          <div className="date">
+            <p>May 2022 - June 2022</p>
+          </div>
+          <div className="cert_down">
             <a
               className="certificate"
               href="https://drive.google.com/file/d/1pS6QQPPyFnRQpIXlpmmG94ZmH7kwsOXq/view?usp=sharing"
@@ -104,7 +108,7 @@ function Achieve() {
               />
             </a>
           </div>
-      </div>
+        </div>
       </div>
     </div>
   );
