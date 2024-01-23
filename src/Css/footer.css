@@ -1,9 +1,6 @@
 .footer{
     display: flex;
-    padding: 2rem 0;
-    /* border: 2px solid; */
-    background-color: white;
-    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    padding: 4.4rem 0;
     justify-content: center;
     align-items: center;
 }

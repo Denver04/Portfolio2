@@ -2,6 +2,7 @@
     .head-part1{
         width: unset;
         margin: 0;
+        padding: 0.25rem;
     }
     .header .bars{
         width: unset;
@@ -13,22 +14,27 @@
     .body1{
         width: unset;
         flex-direction: column-reverse;
+        padding: 5vh 1vh;;
     }
     .body-left{
         width: unset;
         font-size: 35px;
     }
     .body-left h3{
-        font-size: 20px;
+        font-size: 2.8rem;
+    }
+    .body-left p{
+        font-size: 1rem;
     }
     .body-left span{
-        font-size: 18px;
+        font-size: 1.5rem;
     }
     .achieve{
         margin: unset;
         padding: unset;
     }
     .icons{
+        font-size: 26px;
         width: 100%;
     }
     .body-right{
@@ -131,9 +137,6 @@
     .body-left .h5{
         font-size: 25px;
     }
-    .body-left .p{
-        font-size: 18px;
-    }
     .college , .metric , .inter{
         width: unset;
         font-size: 15px;
@@ -186,7 +189,7 @@
         margin: 0 auto 3rem;
     }
     .project h1{
-        font-size: 25px;
+        font-size: 2rem;
     }
     .skill-bars{
         margin: 4vh 1vh;
@@ -209,7 +212,7 @@
         justify-content: space-around;
         flex-direction: column-reverse;
         width: 80%;
-        margin: 25vh auto;
+        margin: 0vh auto;
     }
     .body-left{
         width: unset;
@@ -252,8 +255,8 @@
         width: 30%;
     }
     .skill-bars{
-        margin: 8vh 4vh 7vh 4vh;
-        width: 100%;
+        width: 90%;
+        margin: 2rem auto;
     }
     .achieve-container{
         display: flex;
@@ -270,6 +273,9 @@
 @media screen and (max-width:1400px) and (min-width:1024px) {
     .body1{
         width: unset;
+    }
+    .head-part1{
+        padding: 0.25rem;
     }
     .body-left{
         width: 60%;
@@ -293,6 +299,9 @@
 }
 
 @media screen and (max-width:800px){
+    .head-part1{
+        padding: 0.25rem;
+    }
     .header{
         padding: unset;
         height: auto;
@@ -310,7 +319,7 @@
     .head-elments .a{
         font-size: 12px;
         gap: 0px;
-        border-radius: 0px;
+        border-radius: 25px;
     }
     .logoA{
         margin-left: 15px;

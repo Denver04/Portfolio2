@@ -10,16 +10,18 @@ import { PageWrapper } from "./PageWrapper/PageWrapper";
 import { Typewriter } from "react-simple-typewriter";
 
 function Body() {
+
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
+
   return (
     <PageWrapper title="Abhisek Kumar Singh" description="home page">
-      <div className="body">
+      <div className={`body`}>
         <div className="body1" data-aos="zoom-in">
           <div className="body-left">
             <h3>Hii, I'm Abhisek Kumar Singh</h3>
-            <span style={{ color: "#a12f2f", fontWeight: "bold" }}>
+            <span className="typewriter" style={{ fontWeight: "bold" }}>
               <Typewriter
                 words={[
                   "MERN Developer",
@@ -72,12 +74,12 @@ function Body() {
             </div>
           </div>
 
-          <div className="body-right">
+          {/* <div className="body-right">
             <img className="image" src={main} alt="photo" />
-          </div>
+          </div> */}
         </div>
-        <Achieve />
-        <Education />
+        {/* <Achieve /> */}
+        {/* <Education /> */}
       </div>
     </PageWrapper>
   );

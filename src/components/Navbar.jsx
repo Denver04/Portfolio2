@@ -7,7 +7,7 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import StorageIcon from "@mui/icons-material/Storage";
 import TerminalIcon from "@mui/icons-material/Terminal";
 import DownloadIcon from "@mui/icons-material/Download";
-import { Typography } from "@mui/material";
+import SchoolIcon from '@mui/icons-material/School';
 
 function Navbar() {
   const [bar_class, setBar] = useState("hamburger unclicked");
@@ -47,8 +47,15 @@ function Navbar() {
                 fontSize: 32,
               }}
             />
-            Home
+            {/* Home */}
           </NavLink>
+          {/* <NavLink className="a" to="/education" onClick={crossed}>
+            <SchoolIcon
+              sx={{
+                fontSize: 32,
+              }}
+            />
+          </NavLink> */}
           <NavLink className="a" to="/skill" onClick={crossed}>
             {" "}
             <TerminalIcon
@@ -56,7 +63,7 @@ function Navbar() {
                 fontSize: 32,
               }}
             />{" "}
-            Skills
+            {/* Skills */}
           </NavLink>
           <NavLink className="a" to="/project" onClick={crossed}>
             {" "}
@@ -65,7 +72,7 @@ function Navbar() {
                 fontSize: 32,
               }}
             />{" "}
-            Projects
+            {/* Projects */}
           </NavLink>
           <a className="a" href={Resume} download onClick={crossed}>
             {" "}
@@ -74,7 +81,7 @@ function Navbar() {
                 fontSize: 32,
               }}
             />{" "}
-            Resume
+            {/* Resume */}
           </a>
         </div>
       </div>

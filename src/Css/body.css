@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .body1{
   display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* align-items: center; */
-    width: 80%;
-    margin: 10vh auto 10vh;
+    width: 90%;
+    margin: auto;
+    padding: 10vh;
+    /* margin: 10vh auto 10vh; */
     /* height: 75vh; */
     /* min-height: auto; */
 }
@@ -30,6 +32,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.body-left h3{
+  font-size: 3.5rem;
+}
 .body-left > h4{
     padding: 15px 0;
     letter-spacing: 1px;
@@ -43,6 +48,7 @@
   font-size: 18px;
   letter-spacing: 0.6px;
   font-weight: 500;
+  color: lightgrey;
 }
 .tooltip {
     position: relative;

@@ -12,7 +12,8 @@ function Achieve() {
   }, []);
 
   return (
-    <div className="body-achieve" style={{ backgroundColor: "#efefef" }}>
+    // style={{ backgroundColor: "#efefef" }}
+    <div className="body-achieve" >
       <div className="project3">
         <h1>Experience</h1>
       </div>

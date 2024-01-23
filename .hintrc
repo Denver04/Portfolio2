@@ -3,13 +3,6 @@
     "development"
   ],
   "hints": {
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "scroll-behavior"
-        ]
-      }
-    ]
+    "compat-api/css": "off"
   }
 }

@@ -5,13 +5,14 @@
     letter-spacing: 0.7px;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 6px 6px 10px rgb(228 200 200 / 28%);
+    border: 1px solid lightgrey;
+    box-shadow: 6px 6px 10px rgba(57, 57, 57, 0.28);
     position: relative;
     margin: 10vh 8vh;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10px;
     width: 42%;
-    z-index: 999;
+    /* z-index: 999; */
 }
 .achieve::before{
     content: "" ;
@@ -45,7 +46,7 @@
 }
 .body-achieve{
     /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
-    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -67,9 +68,10 @@
     text-align: initial;
 }
 .achieve h3, .achieve2 h3{
-    color: purple;
+    color: rgb(255, 255, 255);
     margin-bottom: 10px;
     font-size: 30px;
+    text-decoration: underline;
 }
 .date{
     margin: 15px 25px 10px;

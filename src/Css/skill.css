@@ -10,10 +10,10 @@ body {
   /* display: grid; */
   height: auto;
   place-items: center;
-  background: #dfe2fd7a;
+  /* background: #dfe2fd7a; */
   /* background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png"); */
   /* background-color: #387bc2; */
-  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   scroll-behavior: smooth;
 }
@@ -30,8 +30,10 @@ body {
 .skill-bars {
   padding: 25px 30px;
   width: 46%;
-  background: #fff;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  background-color: "#ffffff29";
+  border: 1px solid lightgray;
+  backdrop-filter: blur(5px);
+  box-shadow: 5px 5px 20px rgb(42 41 41 / 28%);
   border-radius: 10px;
 }
 .skill-bars .bar {

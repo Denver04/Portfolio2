@@ -29,14 +29,14 @@ function Skill() {
 
             <i class="devicon-bootstrap-plain colored"></i>
 
-            <i class="devicon-javascript-plain colored"></i>
-
             <i class="devicon-typescript-plain colored"></i>
+            
+            <i class="devicon-javascript-plain colored"></i>
 
             <i class="devicon-react-original colored"></i>
 
-            <i class="devicon-nextjs-original-wordmark colored"></i>
-
+            <i class="devicon-nextjs-original-wordmark"></i>
+          
             <i class="devicon-materialui-plain colored"></i>
 
             <i class="devicon-redux-original colored"></i>
@@ -52,7 +52,8 @@ function Skill() {
           <hr style={{ border: "1px solid #ece6e6" }} />
           <div class="bar">
             <i class="devicon-nodejs-plain-wordmark colored"></i>
-            <i class="devicon-express-original-wordmark colored"></i>
+            {/* <i class="devicon-express-original-wordmark colored"></i> */}
+            <i class="devicon-express-original-wordmark"></i>
             <i class="devicon-mongodb-plain-wordmark colored"></i>
             <i class="devicon-graphql-plain colored"></i>
           </div>
