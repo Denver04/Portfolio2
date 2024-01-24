@@ -1,24 +1,27 @@
+.main {
+  min-height: 100vh;
+}
 .morning-background {
-    color: white;
-    background: url("./images/morning2.jpg") no-repeat center center/cover; /* Morning background color or image */
-  }
-  
-  .afternoon-background {
-    color: white;
-    background: url("./images/evening.jpg") no-repeat center center/cover; /* Afternoon background color or image */
-  }
-  
-  .night-background {
-    color: white;
-    background: url("./images/night3.jpg") no-repeat center center/cover; /* Night background color or image */
-  }
+  color: white;
+  background: url("./images/morning2.jpg") no-repeat center center/cover; /* Morning background color or image */
+}
 
-  .morning-background .typewriter {
-    color: rgb(70 179 0);
-  }
-  .afternoon-background .typewriter {
-    color: #ff6e00;
-  }
-  .night-background .typewriter {
-    color: #0002ff;
-  }
+.afternoon-background {
+  color: white;
+  background: url("./images/evening.jpg") no-repeat center center/cover; /* Afternoon background color or image */
+}
+
+.night-background {
+  color: white;
+  background: url("./images/night3.jpg") no-repeat center center/cover; /* Night background color or image */
+}
+
+.morning-background .typewriter {
+  color: rgb(70 179 0);
+}
+.afternoon-background .typewriter {
+  color: #ff6e00;
+}
+.night-background .typewriter {
+  color: #0002ff;
+}

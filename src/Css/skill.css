@@ -42,7 +42,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 2.0rem;
   margin: 20px 0;
 }
 .skill-bars h3 {
