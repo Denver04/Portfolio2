@@ -26,7 +26,6 @@ function Body() {
                 words={[
                   "MERN Developer",
                   "C++ Programmer",
-                  "Currently Learning Rust",
                 ]}
                 loop={false}
                 cursor
@@ -78,7 +77,7 @@ function Body() {
             <img className="image" src={main} alt="photo" />
           </div> */}
         </div>
-        {/* <Achieve /> */}
+        <Achieve />
         {/* <Education /> */}
       </div>
     </PageWrapper>

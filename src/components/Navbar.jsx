@@ -7,7 +7,8 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import StorageIcon from "@mui/icons-material/Storage";
 import TerminalIcon from "@mui/icons-material/Terminal";
 import DownloadIcon from "@mui/icons-material/Download";
-import SchoolIcon from '@mui/icons-material/School';
+import SchoolIcon from "@mui/icons-material/School";
+import { Tooltip } from "@mui/material";
 
 function Navbar() {
   const [bar_class, setBar] = useState("hamburger unclicked");
@@ -41,48 +42,52 @@ function Navbar() {
           <h1>A</h1>
         </a>
         <div className={menu}>
-          <NavLink className="a" to="/" onClick={crossed}>
-            <HomeOutlinedIcon
-              sx={{
-                fontSize: 32,
-              }}
-            />
-            {/* Home */}
-          </NavLink>
-          {/* <NavLink className="a" to="/education" onClick={crossed}>
-            <SchoolIcon
-              sx={{
-                fontSize: 32,
-              }}
-            />
-          </NavLink> */}
-          <NavLink className="a" to="/skill" onClick={crossed}>
-            {" "}
-            <TerminalIcon
-              sx={{
-                fontSize: 32,
-              }}
-            />{" "}
-            {/* Skills */}
-          </NavLink>
-          <NavLink className="a" to="/project" onClick={crossed}>
-            {" "}
-            <StorageIcon
-              sx={{
-                fontSize: 32,
-              }}
-            />{" "}
-            {/* Projects */}
-          </NavLink>
-          <a className="a" href={Resume} download onClick={crossed}>
-            {" "}
-            <DownloadIcon
-              sx={{
-                fontSize: 32,
-              }}
-            />{" "}
-            {/* Resume */}
-          </a>
+          <Tooltip title="Home">
+            <NavLink className="a" to="/" onClick={crossed}>
+              <HomeOutlinedIcon
+                sx={{
+                  fontSize: 32,
+                }}
+              />
+              {/* Home */}
+            </NavLink>
+          </Tooltip>
+          
+          <Tooltip title="Skills">
+            <NavLink className="a" to="/skill" onClick={crossed}>
+              {" "}
+              <TerminalIcon
+                sx={{
+                  fontSize: 32,
+                }}
+              />{" "}
+              {/* Skills */}
+            </NavLink>
+          </Tooltip>
+
+          <Tooltip title="Projects">
+            <NavLink className="a" to="/project" onClick={crossed}>
+              {" "}
+              <StorageIcon
+                sx={{
+                  fontSize: 32,
+                }}
+              />{" "}
+              {/* Projects */}
+            </NavLink>
+          </Tooltip>
+
+          <Tooltip title="Download Resume">
+            <a className="a" href={Resume} download onClick={crossed}>
+              {" "}
+              <DownloadIcon
+                sx={{
+                  fontSize: 32,
+                }}
+              />{" "}
+              {/* Resume */}
+            </a>
+          </Tooltip>
         </div>
       </div>
       {/* {burger ? (

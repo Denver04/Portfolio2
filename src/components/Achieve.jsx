@@ -13,7 +13,7 @@ function Achieve() {
 
   return (
     // style={{ backgroundColor: "#efefef" }}
-    <div className="body-achieve" >
+    <div className="body-achieve" data-aos="zoom-in">
       <div className="project3">
         <h1>Experience</h1>
       </div>
@@ -31,17 +31,14 @@ function Achieve() {
           </div>
           <p>
             <ul style={{ listStyle: "inside" }}>
-              <li>I was hired as a Full Stack developer.</li>
+              <li>
+                Hired as a Full Stack developer but mainly focus on Frontend
+              </li>
               <li>
                 Created multiple user interfaces using{" "}
                 <strong>ReactJs, </strong> <strong>TypeScript, </strong> and{" "}
                 <strong>Material-UI</strong> and constructed various components
                 as part of my internship.
-              </li>
-              <li>
-                Successfully designed and developed an entire website using{" "}
-                <strong>NextJS, </strong> <strong>JavaScript, </strong>{" "}
-                <strong>CSS, </strong> and <strong>Tailwind CSS.</strong>
               </li>
               <li>
                 Worked closely with the development team to effectively add my
@@ -51,7 +48,7 @@ function Achieve() {
             </ul>
           </p>
           <div className="date">
-            <p>May 2023 - Ongoing</p>
+            <p>May 2023 - April 2024</p>
           </div>
         </div>
 
@@ -59,7 +56,7 @@ function Achieve() {
           <h3>Alecado System</h3>
           <p>
             <ul style={{ listStyle: "inside" }}>
-              <li>I was hired as a Frontend(ReactJS) developer.</li>
+              <li>Hired as a Frontend(ReactJS) developer.</li>
               <li>
                 Leveraged ReactJS and JavaScript to create a dynamic and
                 engaging{" "}
@@ -78,12 +75,6 @@ function Achieve() {
               <li>
                 Worked with two teammates to help everyone work together better,
                 making the project go smoother and work better overall.
-              </li>
-              <li>
-                Responsible for constructing the central-section, cards, and
-                footer-section of the website using a combination of{" "}
-                <strong>HTML</strong> , <strong>CSS</strong> , and
-                <strong> ReactJS.</strong>
               </li>
             </ul>
           </p>

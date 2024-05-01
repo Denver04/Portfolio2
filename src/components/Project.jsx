@@ -15,6 +15,46 @@ function Project() {
         <div className="card">
           <div className="face face1">
             <div className="content">
+              <h2>CACBOT.AI</h2>
+              <p>
+                CACBOT.AI represents an advanced implementation of{" "}
+                <mark>Retrieval Augmented Generation </mark>(RAG) utilizing
+                Pinecone (VectorDB) and open-source Large Language Models
+                (LLMs). It facilitates the ability to respond to various queries
+                based on the user-provided documents.
+              </p>
+              <div className="used">
+                <p>
+                  <strong>TechStack : </strong>ReactJs, TypeScript, Flask,
+                  Python, and LangChain
+                </p>
+              </div>
+              <div className="iccon">
+                {/* <a
+                  href="https://makepass.netlify.app/"
+                  target="_blank"
+                  className="links"
+                >
+                  <i class="fa-solid fa-link"></i>
+                </a> */}
+                <a
+                  href="https://github.com/flashzzz/cacbot-ai"
+                  target="_blank"
+                  className="abcs"
+                >
+                  <i class="fa-solid fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="face face2">
+            <h1>01</h1>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
               <h2>Agri-Cure</h2>
               <p>
                 This project was made for Solving <mark>India Hackathon</mark>.
@@ -24,8 +64,8 @@ function Project() {
                 accordingly. Fully responsive.
                 <div className="used">
                   <p>
-                    <strong>Used : </strong>HTML , CSS , ReactJS , NodeJS ,
-                    Express , Python , ML , and Tensorflow
+                    <strong>TechStack : </strong>ReactJS, NodeJS, Express,
+                    Python, ML, and Tensorflow
                   </p>
                 </div>
               </p>
@@ -48,7 +88,46 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>01</h1>
+            <h1>02</h1>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <h2>Needles</h2>
+              <p>
+                This website is something similar to any social media website
+                but is shown in different way. You can see the posts in the both
+                list and grid view. This is a fully responsive website and it is
+                build using NextJS. No CSS framework is used.
+              </p>
+              <div className="used">
+                <p>
+                  <strong>TechStack : </strong>NextJS, Javascript, CSS, and
+                  Unsplash API.
+                </p>
+              </div>
+              <div className="iccon">
+                <a
+                  href="https://theneedle.netlify.app/"
+                  target="_blank"
+                  className="links"
+                >
+                  <i class="fa-solid fa-link"></i>
+                </a>
+                <a
+                  href="https://github.com/Denver04/Groww"
+                  target="_blank"
+                  className="abcs"
+                >
+                  <i class="fa-solid fa-code"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="face face2">
+            <h1>03</h1>
           </div>
         </div>
 
@@ -63,8 +142,7 @@ function Project() {
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong>HTML , CSS , Javascript , ReactJS ,
-                  and NodeJs.
+                  <strong>TechStack : </strong>ReactJS, Javascript, and NodeJs.
                 </p>
               </div>
               <div className="iccon">
@@ -86,7 +164,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>02</h1>
+            <h1>04</h1>
           </div>
         </div>
 
@@ -103,7 +181,7 @@ function Project() {
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong> Javascript , ReactJS , NodeJs, and
+                  <strong>TechStack : </strong> ReactJS, Javascript, NodeJs, and
                   Tensorflow.
                 </p>
               </div>
@@ -126,46 +204,7 @@ function Project() {
             </div>
           </div>
           <div className="face face2">
-            <h1>03</h1>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <h2>Growingg</h2>
-              <p>
-                This website is something similar to any social media website
-                but is shown in different way. You can see the posts in the both
-                list and grid view. This is a fully responsive website and it is
-                build using NextJS. No CSS framework is used.
-              </p>
-              <div className="used">
-                <p>
-                  <strong>Used : </strong> Javascript , NextJS , CSS , and
-                  Unsplash API .
-                </p>
-              </div>
-              <div className="iccon">
-                <a
-                  href="https://growingg.netlify.app"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <a
-                  href="https://github.com/Denver04/Groww"
-                  target="_blank"
-                  className="abcs"
-                >
-                  <i class="fa-solid fa-code"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="face face2">
-            <h1>04</h1>
+            <h1>05</h1>
           </div>
         </div>
 
@@ -181,7 +220,8 @@ function Project() {
               </p>
               <div className="used">
                 <p>
-                  <strong>Used : </strong>HTML , CSS , Javascript , and ReactJS.
+                  <strong>TechStack : </strong>HTML, CSS, Javascript, and
+                  ReactJS.
                 </p>
               </div>
               <div className="iccon">
@@ -194,43 +234,6 @@ function Project() {
                 </a>
                 <a
                   href="https://github.com/Denver04/Todo"
-                  target="_blank"
-                  className="abcs"
-                >
-                  <i class="fa-solid fa-code"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="face face2">
-            <h1>05</h1>
-          </div>
-        </div>
-
-        <div className="card">
-          <div className="face face1">
-            <div className="content">
-              <h2>Make Password</h2>
-              <p>
-                A website where a user can easily generate a strong password
-                with the help of some checkbox and can copy it. You can create
-                any length of password and it is fully responsive.
-              </p>
-              <div className="used">
-                <p>
-                  <strong>Used : </strong>HTML , CSS , and Javascript.
-                </p>
-              </div>
-              <div className="iccon">
-                <a
-                  href="https://makepass.netlify.app/"
-                  target="_blank"
-                  className="links"
-                >
-                  <i class="fa-solid fa-link"></i>
-                </a>
-                <a
-                  href="https://github.com/Denver04/Password-generator"
                   target="_blank"
                   className="abcs"
                 >
