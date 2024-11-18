@@ -10,7 +10,6 @@ import { PageWrapper } from "./PageWrapper/PageWrapper";
 import { Typewriter } from "react-simple-typewriter";
 
 function Body() {
-
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
@@ -23,10 +22,7 @@ function Body() {
             <h3>Hii, I'm Abhisek Kumar Singh</h3>
             <span className="typewriter" style={{ fontWeight: "bold" }}>
               <Typewriter
-                words={[
-                  "MERN Developer",
-                  "C++ Programmer",
-                ]}
+                words={["React Developer", "C++ Programmer", "Loves Java"]}
                 loop={false}
                 cursor
                 cursorStyle="|"
@@ -36,8 +32,10 @@ function Body() {
               />
             </span>
             <p>
-              Currently, I'm a fourth year Computer Science student persuing B.E
-              from Army Institute of Technology, Pune.
+              Graduated in Computer Science from the Army Institute of
+              Technology, Pune, in 2024. Presently employed as a Software
+              Engineer at HSBC Technology India, Pune. Proficient as a 
+              Frontend Developer with knowledge of backend too and C++/Python Programmer.
             </p>
             <div className="icons">
               <div className="tooltip">
