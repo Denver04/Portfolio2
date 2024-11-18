@@ -18,7 +18,35 @@ function Achieve() {
         <h1>Experience</h1>
       </div>
       <div className="achieve-container" data-aos="zoom-in">
-        <div className="achieve">
+        <div className="achieve-hsbc">
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "10px",
+            }}
+          >
+            <h3>HSBC</h3>
+          </div>
+          <p>
+            <ul style={{ listStyle: "inside" }}>
+              <li>
+                Software Engineer at HSBC Technology India, Pune.
+              </li>
+              <li>
+                Developing methods to Optimize pre-develop codes using{" "}
+                <strong>Python</strong>  and <strong>Panda </strong> and constructed various components
+                as part of my internship.
+              </li>
+            </ul>
+          </p>
+          <div className="date">
+            <p>July 2024 - Ongoing</p>
+          </div>
+        </div>
+
+        <div className="achieve-edge">
           <div
             style={{
               display: "flex",
@@ -52,7 +80,7 @@ function Achieve() {
           </div>
         </div>
 
-        <div className="achieve2">
+        <div className="achieve-alecado">
           <h3>Alecado System</h3>
           <p>
             <ul style={{ listStyle: "inside" }}>

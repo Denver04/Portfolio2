@@ -1,4 +1,4 @@
-.achieve, .achieve2{
+.achieve-edge, .achieve-alecado, .achieve-hsbc{
     position: relative;
     width: auto;
     text-align: center;
@@ -14,7 +14,7 @@
     width: 42%;
     /* z-index: 999; */
 }
-.achieve::before{
+.achieve-edge::before{
     content: "" ;
     position: absolute;
     background: url("../images/edge_n_roots_logo.jpeg") no-repeat center center/cover;
@@ -27,7 +27,7 @@
     z-index: 1000;
     transition: 0.5s ease-in-out;
 }
-.achieve2::before{
+.achieve-alecado::before{
     content: "" ;
     position: absolute;
     background: url("../images/alecado.jpeg") no-repeat center;
@@ -40,8 +40,22 @@
     z-index: 1000;
     transition: 0.5s ease-in-out;
 }
-.achieve2:hover::before,
-.achieve:hover::before{
+
+.achieve-hsbc::before{
+    content: "" ;
+    position: absolute;
+    background: url("../images/HSBC.png") no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    background-color: rgb(241, 243, 243);
+    z-index: 1000;
+    transition: 0.5s ease-in-out;
+}
+.achieve-alecado:hover::before,
+.achieve-edge:hover::before, .achieve-hsbc:hover::before{
     height: 0%;
 }
 .body-achieve{
@@ -61,13 +75,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.achieve ul li, .achieve2 ul li{
+.achieve-edge ul li, .achieve-alecado ul li, .achieve-hsbc ul li{
     margin: 15px;
 }
-.achieve p, .achieve2 p{
+.achieve-edge p, .achieve-alecado p, .achieve-hsbc p{
     text-align: initial;
 }
-.achieve h3, .achieve2 h3{
+.achieve-edge h3, .achieve-alecado h3, .achieve-hsbc h3{
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     font-size: 30px;
