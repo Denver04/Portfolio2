@@ -1,6 +1,5 @@
 .achieve-edge, .achieve-alecado, .achieve-hsbc{
     position: relative;
-    width: auto;
     text-align: center;
     letter-spacing: 0.7px;
     padding: 20px;
@@ -11,7 +10,8 @@
     margin: 10vh 8vh;
     background-color: #1d1d1d;
     border-radius: 10px;
-    width: 42%;
+    min-width: 30%;
+    max-width: 40%;
     /* z-index: 999; */
 }
 .achieve-edge::before{
@@ -115,4 +115,34 @@
 }
 .download:hover{
     background-color: rgb(234, 235, 234);
+}
+
+
+@media screen and (max-width: 768px){
+    .achieve-edge, .achieve-alecado, .achieve-hsbc{
+        min-width: 100%;
+        max-width: 90%;
+    }
+    /* .achieve-edge h3, .achieve-alecado h3, .achieve-hsbc h3{
+        font-size: 20px;
+    }
+    .achieve-edge ul li, .achieve-alecado ul li, .achieve-hsbc ul li{
+        margin: 10px;
+    }
+    .achieve-edge p, .achieve-alecado p, .achieve-hsbc p{
+        font-size: 15px;
+    }
+    .date{
+        margin: 10px 15px 5px;
+    }
+    .certificate{
+        font-size: 15px;
+    }
+    .cert_down{
+        gap: 5px;
+    }
+    .download{
+        padding: 2px 3px;
+    } */
+    
 }
