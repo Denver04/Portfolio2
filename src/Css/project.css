@@ -9,7 +9,8 @@
     gap: 4rem;
     width: 75%;
     flex-wrap: wrap;
-    margin: 3rem auto;
+    margin: auto;
+    padding: 3rem 0;
 }
 .content p{
     color: grey;
@@ -69,7 +70,7 @@
     padding: 0px;
 }
 .project{
-    margin: 2rem 0 0 0;
+    padding: 2rem 0 0 0;
     text-align: center;
     font-size: 1.5rem;
 }

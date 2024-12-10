@@ -78,6 +78,26 @@ function Achieve() {
           <div className="date">
             <p>May 2023 - April 2024</p>
           </div>
+
+          <div className="cert_down">
+            <a
+              className="certificate"
+              href="https://drive.google.com/file/d/1bm6pRlnefuOodW_v8B1PHqH2L5tnb9qr/view?usp=sharing"
+              style={{ color: "green" }}
+              target="_blank"
+            >
+              Certificate
+            </a>
+            <a className="download" href={certificate} download>
+              {" "}
+              <DownloadIcon
+                sx={{
+                  fontSize: 32,
+                }}
+                color="primary"
+              />
+            </a>
+          </div>
         </div>
 
         <div className="achieve-alecado">

@@ -22,7 +22,7 @@ function Body() {
             <h3>Hii, I'm Abhisek Kumar Singh</h3>
             <span className="typewriter" style={{ fontWeight: "bold" }}>
               <Typewriter
-                words={["React Developer", "C++ Programmer", "Loves Java"]}
+                words={["React Developer", "C++ Programmer"]}
                 loop={false}
                 cursor
                 cursorStyle="|"

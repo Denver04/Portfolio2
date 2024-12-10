@@ -22,8 +22,8 @@ body {
   gap: 4rem;
   display: flex;
   flex-wrap: wrap;
-  margin: 4rem auto;
-  width: 95%;
+  padding: 4rem;
+  min-width: 95%;
   justify-content: space-evenly;
   height: auto;
 }
@@ -31,10 +31,12 @@ body {
   padding: 25px 30px;
   width: 46%;
   background-color: "#ffffff29";
-  border: 1px solid lightgray;
+  border: 1px solid #454141;
   backdrop-filter: blur(5px);
   box-shadow: 5px 5px 20px rgb(42 41 41 / 28%);
   border-radius: 10px;
+  background-color: #b3fff7;
+
 }
 .skill-bars .bar {
   display: flex;
@@ -42,7 +44,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 2.0rem;
+  gap: 1.5rem;
   margin: 20px 0;
 }
 .skill-bars h3 {

@@ -60,15 +60,3 @@
   }
   
   }
-
-
-/* <BallTriangle
-        height={100}
-        width={100}
-        radius={5}
-        color="#6665ee"
-        ariaLabel="ball-triangle-loading"
-        wrapperClassName="style"
-        wrapperStyle={{display:"flex" , alignItems:"center" , justifyContent:"center" , width:"100vw" , height:"100vh" }}
-        visible={true}
-      /> */

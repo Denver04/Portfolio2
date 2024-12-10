@@ -1,7 +1,7 @@
 .main {
   min-height: 100vh;
-  background: url("./images/bg.jpg") no-repeat center center/cover;
-  color: white;
+  /* background: url("./images/bg.jpg") no-repeat center center/cover; */
+  color: black;
 }
 /* .morning-background {
   color: white;
