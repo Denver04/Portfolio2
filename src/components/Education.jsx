@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { PageWrapper } from "./PageWrapper/PageWrapper";
 import "../Css/education.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -9,7 +10,7 @@ function Education() {
   }, []);
 
   return (
-    <>
+    <PageWrapper title="Education" description="Education page">
       <div className="project3 project4">
         <h1>Education </h1>
       </div>
@@ -48,7 +49,7 @@ function Education() {
           </div>
         </div>
       </div>
-    </>
+    </PageWrapper>
   );
 }
 
