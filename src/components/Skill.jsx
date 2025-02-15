@@ -64,7 +64,8 @@ function Skill() {
           <div class="bar">
             <i class="devicon-cplusplus-plain colored"></i>
             <i class="devicon-python-plain-wordmark colored"></i>
-            <i class="devicon-rust-plain"></i>
+            {/* <i class="devicon-rust-plain"></i> */}
+            <i class="devicon-java-plain-wordmark colored"></i>
           </div>
         </div>
 
