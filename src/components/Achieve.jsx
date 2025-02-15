@@ -36,8 +36,8 @@ function Achieve() {
               </li>
               <li>
                 Developing methods to Optimize pre-develop codes using{" "}
-                <strong>Python</strong>  and <strong>Panda </strong> and constructed various components
-                as part of my internship.
+                <strong>Python</strong>  and <strong>Panda </strong> which can run over rpgle/clle codes.
+                It saves time and reduces developers' effort.
               </li>
             </ul>
           </p>

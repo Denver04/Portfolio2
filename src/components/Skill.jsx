@@ -17,7 +17,7 @@ function Skill() {
       <div className="skills" data-aos="zoom-in">
         <div class="skill-bars">
           <h3>Frontend</h3>
-          <hr style={{ border: "1px solid #ece6e6" }} />
+          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
           <div class="bar">
             <i class="devicon-html5-plain-wordmark colored"></i>
 
@@ -49,7 +49,7 @@ function Skill() {
 
         <div class="skill-bars">
           <h3>Backend</h3>
-          <hr style={{ border: "1px solid #ece6e6" }} />
+          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
           <div class="bar">
             <i class="devicon-nodejs-plain-wordmark colored"></i>
             <i class="devicon-express-original-wordmark"></i>
@@ -60,7 +60,7 @@ function Skill() {
 
         <div class="skill-bars">
           <h3>Programming</h3>
-          <hr style={{ border: "1px solid #ece6e6" }} />
+          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
           <div class="bar">
             <i class="devicon-cplusplus-plain colored"></i>
             <i class="devicon-python-plain-wordmark colored"></i>
@@ -71,7 +71,7 @@ function Skill() {
 
         <div class="skill-bars">
           <h3>Tools Used</h3>
-          <hr style={{ border: "1px solid #ece6e6" }} />
+          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
           <div class="bar">
             <i class="devicon-vscode-plain colored"></i>
             <i class="devicon-git-plain colored"></i>
