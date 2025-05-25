@@ -1,6 +1,6 @@
 .main {
   min-height: 100vh;
-  /* background: url("./images/bg.jpg") no-repeat center center/cover; */
+  background: #369991;
   color: black;
 }
 /* .morning-background {
@@ -22,7 +22,7 @@
   color: rgb(70 179 0);
 }
 .afternoon-background .typewriter {
-  color: #ff6e00;
+  color: #67e4c9;
 }
 .night-background .typewriter {
   color: #00ffc7;

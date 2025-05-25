@@ -31,13 +31,19 @@ function Achieve() {
           </div>
           <p>
             <ul style={{ listStyle: "inside" }}>
+              <li>Software Engineer at HSBC Technology India, Pune.</li>
               <li>
-                Software Engineer at HSBC Technology India, Pune.
+                Developed automation solutions using <strong>Python</strong> and{" "}
+                <strong>Pandas</strong> to optimize legacy codebases. Designed
+                tools to identify and modify pre-existing code based on dynamic
+                business requirements, significantly reducing manual development
+                efforts and improving code efficiency and maintainability
               </li>
               <li>
-                Developing methods to Optimize pre-develop codes using{" "}
-                <strong>Python</strong>  and <strong>Panda </strong> which can run over rpgle/clle codes.
-                It saves time and reduces developers' effort.
+                Built <strong>RESTful APIs</strong> to facilitate end-to-end
+                system integration and seamless communication between frontend
+                and backend modules. Ensured high performance, scalability and
+                secure data transactions in all backend services.
               </li>
             </ul>
           </p>
@@ -59,14 +65,12 @@ function Achieve() {
           </div>
           <p>
             <ul style={{ listStyle: "inside" }}>
-              <li>
-                Hired as a Full Stack developer but mainly focus on Frontend
-              </li>
+              <li>Hired as a Full Stack developer</li>
               <li>
                 Created multiple user interfaces using{" "}
-                <strong>ReactJs, </strong> <strong>TypeScript, </strong> and{" "}
-                <strong>Material-UI</strong> and constructed various components
-                as part of my internship.
+                <strong>ReactJs, </strong> <strong>TypeScript, </strong>{" "}
+                <strong>Redux, </strong>and <strong>Material-UI</strong> and
+                constructed various components as part of my internship.
               </li>
               <li>
                 Worked closely with the development team to effectively add my

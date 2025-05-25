@@ -22,7 +22,7 @@ function Body() {
             <h3>Hii, I'm Abhisek Kumar Singh</h3>
             <span className="typewriter" style={{ fontWeight: "bold" }}>
               <Typewriter
-                words={["React Developer", "C++ Programmer"]}
+                words={["React Developer", "C++ Programmer", "JAVA Learner"]}
                 loop={false}
                 cursor
                 cursorStyle="|"
@@ -34,8 +34,8 @@ function Body() {
             <p>
               Graduated in Computer Science from the Army Institute of
               Technology, Pune, in 2024. Presently employed as a Software
-              Engineer at HSBC Technology India, Pune. Proficient as a 
-              Frontend Developer with knowledge of backend too and C++/Python Programmer.
+              Engineer at HSBC Technology India, Pune. Proficient in C++,
+              Javascript(ReactJs, Redux Nodejs and TypeScript), JAVA and Python.
             </p>
             <div className="icons">
               <div className="tooltip">

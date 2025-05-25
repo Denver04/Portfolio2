@@ -41,7 +41,7 @@ function Navbar() {
         <a href="/" className="logoA">
           <h1>A</h1>
         </a>
-        <div className={menu}>
+        {<div className={menu}>
           <Tooltip title="Home">
             <NavLink className="a" to="/" onClick={crossed}>
               <HomeOutlinedIcon
@@ -88,7 +88,12 @@ function Navbar() {
               {/* Resume */}
             </a>
           </Tooltip>
+        </div>}
+        {/* {burger && (
+        <div className={mainBar} onClick={clicked}>
+          <i class="fa-solid fa-bars fa-2xl"></i>
         </div>
+      )} */}
       </div>
       {/* {burger ? (
         <div className={mainBar} onClick={clicked}>

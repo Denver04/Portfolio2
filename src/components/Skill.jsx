@@ -16,7 +16,7 @@ function Skill() {
       </div>
       <div className="skills" data-aos="zoom-in">
         <div class="skill-bars">
-          <h3>Frontend</h3>
+          <h3>Development</h3>
           <hr style={{ border: "1px solid rgb(0 0 0)" }} />
           <div class="bar">
             <i class="devicon-html5-plain-wordmark colored"></i>
@@ -44,6 +44,7 @@ function Skill() {
             <i class="devicon-jquery-plain colored"></i>
 
             <i class="devicon-babel-plain colored"></i>
+
           </div>
         </div>
 
@@ -55,6 +56,7 @@ function Skill() {
             <i class="devicon-express-original-wordmark"></i>
             <i class="devicon-mongodb-plain-wordmark colored"></i>
             <i class="devicon-graphql-plain colored"></i>
+            <i class="devicon-spring-original colored"></i>
           </div>
         </div>
 
