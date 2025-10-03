@@ -13,6 +13,7 @@ import { useGSAP } from "@gsap/react";
 import SplitType from "split-type";
 
 function Body() {
+
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
@@ -35,45 +36,13 @@ function Body() {
                 delaySpeed={1000}
               />
             </span>
-            <p>
+            <p >
               Graduated in Computer Science from the Army Institute of
               Technology, Pune, in 2024. Presently employed as a Software
               Engineer at HSBC Technology India, Pune. Proficient in C++,
               Javascript(ReactJs, Redux Nodejs and TypeScript), JAVA and Python.
             </p>
-            {/* <div className="icons">
-              <div className="tooltip" ref={tooltip}>
-                <a
-                  href="https://github.com/Denver04"
-                  target="_blank"
-                  className="github"
-                >
-                  <i class="fa-brands fa-github-square"></i>
-                </a>
-              </div>
 
-              <div className="tooltip">
-                <a
-                  href="https://www.linkedin.com/in/abhisekkumarsingh/"
-                  target="_blank"
-                  className="linkedin"
-                >
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-              </div>
-
-              <div className="tooltip">
-                <a href="https://www.hackerrank.com/abhisekkumarsin1">
-                  <i class="fa-brands fa-hackerrank"></i>
-                </a>
-              </div>
-
-              <div className="tooltip">
-                <a href="mailto:abhisekkumarsingh021@example.com">
-                  <i class="fa-solid fa-envelope"></i>
-                </a>
-              </div>
-            </div> */}
             <div className="icons">
               {[
                 {

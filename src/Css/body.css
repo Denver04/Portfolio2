@@ -41,7 +41,7 @@
     justify-content: center;
 }
 .body-left h1{
-  font-size: 7rem;
+  font-size: 5rem;
   letter-spacing: 1.5px;
 }
 .body-left > h4{
@@ -54,7 +54,7 @@
 }
 .body-left p{
   padding: 5px 0;
-  font-size: 26px;
+  font-size: 22px;
   letter-spacing: 1.2px;
   font-weight: 500;
   color: lightgrey;
@@ -88,10 +88,10 @@
     transition: all 0.5s linear;
   }
   
-  .tooltip:hover .tooltiptext {
+  /* .tooltip:hover .tooltiptext {
     visibility: visible;
     color: #fff;
-  }
+  } */
   .tooltip:hover{
     cursor: pointer;
   }

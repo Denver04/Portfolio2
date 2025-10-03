@@ -7,85 +7,64 @@ import SplitType from "split-type";
 import gsap from "gsap";
 
 function Skill() {
-
   useEffect(() => {
     Aos.init({ duration: 1500 });
-
-
   }, []);
+
+  const skills = {
+    Development: [
+      "devicon-html5-plain-wordmark colored",
+      "devicon-css3-plain-wordmark colored",
+      "devicon-sass-original colored",
+      "devicon-tailwindcss-original-wordmark colored",
+      "devicon-bootstrap-plain colored",
+      "devicon-typescript-plain colored",
+      "devicon-javascript-plain colored",
+      "devicon-react-original colored",
+      "devicon-nextjs-original-wordmark",
+      "devicon-materialui-plain colored",
+      "devicon-redux-original colored",
+      "devicon-jquery-plain colored",
+      "devicon-babel-plain colored",
+    ],
+    Backend: [
+      "devicon-nodejs-plain-wordmark colored",
+      "devicon-express-original-wordmark",
+      "devicon-mongodb-plain-wordmark colored",
+      "devicon-graphql-plain colored",
+      "devicon-spring-original colored",
+    ],
+    Programming: [
+      "devicon-cplusplus-plain colored",
+      "devicon-python-plain-wordmark colored",
+      "devicon-java-plain-wordmark colored",
+    ],
+    "Tools Used": [
+      "devicon-vscode-plain colored",
+      "devicon-git-plain colored",
+      "devicon-github-original",
+      "devicon-npm-original-wordmark colored",
+      "devicon-yarn-plain-wordmark colored",
+    ],
+  };
 
   return (
     <PageWrapper title="Skills" description="skill I have">
-      <div className="project">
+      <div className="project" data-aos="zoom-in">
         <h1>My Skills</h1>
       </div>
-      <div className="skills">
-        <div class="skill-bars">
-          <h3>Development</h3>
-          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
-          <div class="bar">
-            <i class="devicon-html5-plain-wordmark colored"></i>
-
-            <i class="devicon-css3-plain-wordmark colored"></i>
-
-            <i class="devicon-sass-original colored"></i>
-
-            <i class="devicon-tailwindcss-original-wordmark colored"></i>
-
-            <i class="devicon-bootstrap-plain colored"></i>
-
-            <i class="devicon-typescript-plain colored"></i>
-
-            <i class="devicon-javascript-plain colored"></i>
-
-            <i class="devicon-react-original colored"></i>
-
-            <i class="devicon-nextjs-original-wordmark"></i>
-
-            <i class="devicon-materialui-plain colored"></i>
-
-            <i class="devicon-redux-original colored"></i>
-
-            <i class="devicon-jquery-plain colored"></i>
-
-            <i class="devicon-babel-plain colored"></i>
+      <div className="skills" data-aos="zoom-in">
+        {Object.entries(skills).map(([category, icons]) => (
+          <div key={category} className="skill-bars">
+            <h3>{category}</h3>
+            <hr style={{ border: "1px solid rgb(0 0 0)" }} />
+            <div className="bar">
+              {icons.map((icon, i) => (
+                <i key={i} className={icon}></i>
+              ))}
+            </div>
           </div>
-        </div>
-
-        <div class="skill-bars">
-          <h3>Backend</h3>
-          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
-          <div class="bar">
-            <i class="devicon-nodejs-plain-wordmark colored"></i>
-            <i class="devicon-express-original-wordmark"></i>
-            <i class="devicon-mongodb-plain-wordmark colored"></i>
-            <i class="devicon-graphql-plain colored"></i>
-            <i class="devicon-spring-original colored"></i>
-          </div>
-        </div>
-
-        <div class="skill-bars">
-          <h3>Programming</h3>
-          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
-          <div class="bar">
-            <i class="devicon-cplusplus-plain colored"></i>
-            <i class="devicon-python-plain-wordmark colored"></i>
-            {/* <i class="devicon-rust-plain"></i> */}
-            <i class="devicon-java-plain-wordmark colored"></i>
-          </div>
-        </div>
-
-        <div class="skill-bars">
-          <h3>Tools Used</h3>
-          <hr style={{ border: "1px solid rgb(0 0 0)" }} />
-          <div class="bar">
-            <i class="devicon-vscode-plain colored"></i>
-            <i class="devicon-git-plain colored"></i>
-            <i class="devicon-github-original"></i>
-            <i class="devicon-npm-original-wordmark colored"></i>
-            <i class="devicon-yarn-plain-wordmark colored"></i>
-          </div>
-        </div>
+        ))}
       </div>
     </PageWrapper>
   );
