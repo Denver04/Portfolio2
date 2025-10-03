@@ -17,11 +17,11 @@ body{
     padding: 10px 0;
     left: 0;
     right: 0;
-    background-color: rgb(74, 151, 139);
+    background-color: rgb(37 39 39);
     width: 100%;
     z-index: 999;
     box-sizing: border-box;
-    border-bottom: 1px solid #6abbb1;
+    border-bottom: 1px solid #525151;
 }
 .head-part1{
     display: flex;

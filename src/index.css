@@ -1,7 +1,8 @@
 .main {
   min-height: 100vh;
-  background: #369991;
-  color: black;
+  background-color: #161616;
+  color: #989b99;
+  font-family: "Dancing Script";
 }
 /* .morning-background {
   color: white;

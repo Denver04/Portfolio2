@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 html,
 body {
@@ -16,6 +16,9 @@ body {
   /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   /* background-image: url("https://www.transparenttextures.com/patterns/shattered.png"); */
   scroll-behavior: smooth;
+  background-color: #161616;
+  color: #989b99;
+  font-family: "Dancing Script";
 }
 
 .skills {
@@ -35,8 +38,7 @@ body {
   backdrop-filter: blur(5px);
   box-shadow: 5px 5px 20px rgb(42 41 41 / 28%);
   border-radius: 10px;
-  background-color: #b3fff7;
-
+  background-color: #2f3130;
 }
 .skill-bars .bar {
   display: flex;

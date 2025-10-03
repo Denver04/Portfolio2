@@ -1,12 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "../Css/skill.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { PageWrapper } from "./PageWrapper/PageWrapper";
+import SplitType from "split-type";
+import gsap from "gsap";
 
 function Skill() {
+
   useEffect(() => {
     Aos.init({ duration: 1500 });
+
+
   }, []);
 
   return (
@@ -14,7 +19,7 @@ function Skill() {
       <div className="project">
         <h1>My Skills</h1>
       </div>
-      <div className="skills" data-aos="zoom-in">
+      <div className="skills">
         <div class="skill-bars">
           <h3>Development</h3>
           <hr style={{ border: "1px solid rgb(0 0 0)" }} />
@@ -44,7 +49,6 @@ function Skill() {
             <i class="devicon-jquery-plain colored"></i>
 
             <i class="devicon-babel-plain colored"></i>
-
           </div>
         </div>
 

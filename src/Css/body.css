@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-.body{
-  background-color: #4a978b;
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+.body{
+  background-color: #161616;
+  color: #989b99;
+  font-family: "Dancing Script";
 }
 
 .body1{
@@ -31,14 +34,15 @@
 .body-left{
     width: 50%;
     /* border: 2px solid; */
-    font-size: 30px;
+    font-size: 50px;
     padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.body-left h3{
-  font-size: 3.5rem;
+.body-left h1{
+  font-size: 7rem;
+  letter-spacing: 1.5px;
 }
 .body-left > h4{
     padding: 15px 0;
@@ -50,17 +54,17 @@
 }
 .body-left p{
   padding: 5px 0;
-  font-size: 18px;
-  letter-spacing: 0.6px;
+  font-size: 26px;
+  letter-spacing: 1.2px;
   font-weight: 500;
   color: lightgrey;
 }
 .tooltip {
     position: relative;
     display: inline-block;
-    padding: 0.25rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     text-align: center;
-    background-color: snow;
+    /* background-color: rgb(0, 0, 0); */
     box-sizing: border-box;
     border-radius: 50%;
     /* box-shadow: 2px 2px 5px rgb(0 0 0 / 60%); */
@@ -70,7 +74,7 @@
     visibility: hidden;
     width: 90px;
     background-color: rgb(102, 101, 101);
-    color: #fff;
+    color: #414040;
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
