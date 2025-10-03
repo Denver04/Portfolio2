@@ -4,7 +4,6 @@ import certificate from "../images/certificate.pdf";
 import DownloadIcon from "@mui/icons-material/Download";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import EdgeNRoots from "../images/edge_n_roots_logo.jpeg";
 
 function Achieve() {
   useEffect(() => {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Css/project.css";
 import { Link } from "react-router-dom";
 import Aos from "aos";
@@ -6,12 +6,17 @@ import "aos/dist/aos.css";
 import { PageWrapper } from "./PageWrapper/PageWrapper";
 
 function Project() {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <PageWrapper title="Project" description="project page">
       <div className="project project-head">
         <h1>Projects</h1>
       </div>
-      <div className="container">
+      <div className="container" data-aos="zoom-in">
         <div className="card">
           <div className="face face1">
             <div className="content">

@@ -3,11 +3,10 @@ import "../Css/skill.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { PageWrapper } from "./PageWrapper/PageWrapper";
-import SplitType from "split-type";
 import gsap from "gsap";
 
 function Skill() {
-  const skillsRef = useRef(null);
+
   useEffect(() => {
     Aos.init({ duration: 1500 });
 

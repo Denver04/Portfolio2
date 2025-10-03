@@ -9,8 +9,8 @@ import "aos/dist/aos.css";
 import { PageWrapper } from "./PageWrapper/PageWrapper";
 import { Typewriter } from "react-simple-typewriter";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import SplitType from "split-type";
+import Footer from "./Footer";
 
 function Body() {
   const textRef = useRef(null);
@@ -73,7 +73,7 @@ function Body() {
           scale: 1,
           duration: 0.3,
           ease: "power2.inOut",
-          color: "#5f5d5dff",
+          color: "#989b99",
           backgroundImage: "none",
           animation: "none",
         });
