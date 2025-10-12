@@ -1,329 +1,338 @@
-@media screen and (max-width:600px){
-    .head-part1{
-        width: unset;
-        margin: 0;
-        padding: 0.25rem;
-    }
-    .header .bars{
-        width: unset;
-    }
-    /* body{
+@media screen and (max-width: 600px) {
+  .head-part1 {
+    width: unset;
+    margin: 0;
+    padding: 0.25rem;
+  }
+  .header .bars {
+    width: unset;
+  }
+  /* body{
         display: flex;
         width: 221%;
     } */
-    .body1{
-        width: unset;
-        flex-direction: column-reverse;
-        padding: 5vh 1vh;;
-    }
-    .body-left{
-        width: unset;
-        font-size: 35px;
-    }
-    .body-left h3{
-        font-size: 2.8rem;
-    }
-    .body-left p{
-        font-size: 1rem;
-    }
-    .body-left span{
-        font-size: 1.5rem;
-    }
-    .achieve{
-        margin: unset;
-        padding: unset;
-    }
-    .icons{
-        font-size: 26px;
-        width: 100%;
-    }
-    .body-right{
-        width: unset;
-    }
-    .body-right img{
-        width: 85%;
-    }
-    .footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5rem;
-    }
-    .contacss{
-        width: inherit;
-        /* margin: 3rem; */
-    }
-    .facon{
-        width: 100%;
-        height: 100%;
-    }
-    .footer-icon a{
-        width: 35%;
-        font-size: 25px;
-    }
-    .follow-icon{
-        margin-right: unset;
-        width: 50%;
-    }
-    .follow-icon{
-        /* width: inherit; */
-        margin-top: 2rem;
-    }
-    .achieve h3{
-        font-size: 25px;
-    }
-    .achieve p{
-        font-size: 12px;
-    }
-    .achieve ul li{
-        margin: 10px;
-    }
-    .body-achieve{
-        padding: 10px;
-    }
-    .date p{
-        padding-bottom: 10px;
-    }
-    .container{
-        gap: 4rem 0;
-        width: inherit;
-    }
-    .contact{
-        padding: unset;
-        margin: 14rem 0;
-        /* width: 200%; */
-    }
-    .follow-icon{
-        margin-top: unset;
-    }
-    .contacss{
-        width: 30%;
-    }
-    .facon{
-        /* display: unset; */
-        height: 100%;
-    }
-    .footer-icon h2{
-        visibility: hidden;
-        opacity: 0;
-    }
-    .footer-icon{
-        margin-right: unset;
-    }
-    
-    .head-elments{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .project5{  
-        width: 33%;
-    }
-    input[type=text], input[type=email], textarea {
-        padding: 12px;
-        border-radius: 5px;
-        font-size: 30px;
-    }
-    .form button {
-        width: 30%;
-    }
-    .wrapper{
-        margin: 39rem 17rem
-    }
-    .body-left .h4{
-        font-size: 30px;
-    }
-    .body-left .h5{
-        font-size: 25px;
-    }
-    .college , .metric , .inter{
-        width: unset;
-        font-size: 15px;
-    }
-    .container .card{
-        width: 340px;
-    }
-    .content{
-        top: -50px;
-    }
-    .form{
-        width:80%;
-        margin-bottom:3rem;
-    }
-    .project3{
-        margin-bottom: 20px;
-    }
-    .date{
-        margin: 20px 20px;
-    }
-    .achieve ul li{
-        margin: 20px;
-    }
-    .content p{
-        font-size: 14px;
-    }
+  .body1 {
+    width: unset;
+    flex-direction: column-reverse;
+    padding: 5vh 1vh;
+  }
+  .body-left {
+    width: unset;
+    font-size: 35px;
+  }
+  .body-left h3 {
+    font-size: 2.8rem;
+  }
+  .body-left p {
+    font-size: 1rem;
+  }
+  .body-left span {
+    font-size: 1.5rem;
+  }
+  .achieve {
+    margin: unset;
+    padding: unset;
+  }
+  .icons {
+    font-size: 26px;
+    width: 100%;
+  }
+  .body-right {
+    width: unset;
+  }
+  .body-right img {
+    width: 85%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  .contacss {
+    width: inherit;
+    /* margin: 3rem; */
+  }
+  .facon {
+    width: 100%;
+    height: 100%;
+  }
+  .footer-icon a {
+    width: 35%;
+    font-size: 25px;
+  }
+  .follow-icon {
+    margin-right: unset;
+    width: 50%;
+  }
+  .follow-icon {
+    /* width: inherit; */
+    margin-top: 2rem;
+  }
+  .achieve h3 {
+    font-size: 25px;
+  }
+  .achieve p {
+    font-size: 12px;
+  }
+  .achieve ul li {
+    margin: 10px;
+  }
+  .body-achieve {
+    padding: 10px;
+  }
+  .date p {
+    padding-bottom: 10px;
+  }
+  .container {
+    gap: 4rem 0;
+    width: inherit;
+  }
+  .contact {
+    padding: unset;
+    margin: 14rem 0;
+    /* width: 200%; */
+  }
+  .follow-icon {
+    margin-top: unset;
+  }
+  .contacss {
+    width: 30%;
+  }
+  .facon {
+    /* display: unset; */
+    height: 100%;
+  }
+  .footer-icon h2 {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .footer-icon {
+    margin-right: unset;
+  }
 
-    .skill-bars{
-        margin: 8vh 4vh 7vh 4vh;
-        width: 100%;
-    }
-    .header{
-        width: 100%;
-    }
-    .head-part1{
-        width: 100%;
-    }
-    .a{
-        display: flex;
-        font-size: 12px;
-        padding: 6px;
-        flex-direction: column;
-    }
-    .flexy{
-        gap: 10px;
-    }
-    .skills{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0rem;
-    }
-    .project h1{
-        font-size: 2rem;
-    }
-    .skill-bars{
-        margin: 4vh 1vh;
-    }
-    .achieve-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
-    .achieve, .achieve2{
-        width: 100%;
-    }
+  .head-elments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .project5 {
+    width: 33%;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 30px;
+  }
+  .form button {
+    width: 30%;
+  }
+  .wrapper {
+    margin: 39rem 17rem;
+  }
+  .body-left .h4 {
+    font-size: 30px;
+  }
+  .body-left .h5 {
+    font-size: 25px;
+  }
+  .college,
+  .metric,
+  .inter {
+    width: unset;
+    font-size: 15px;
+  }
+  .container .card {
+    width: 340px;
+  }
+  .content {
+    top: -50px;
+  }
+  .form {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+  .project3 {
+    margin-bottom: 20px;
+  }
+  .project3 h1 {
+    font-size: 4rem;
+  }
+  .date {
+    margin: 20px 20px;
+  }
+  .achieve ul li {
+    margin: 20px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+
+  .skill-bars {
+    margin: 8vh 4vh 7vh 4vh;
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+  .head-part1 {
+    width: 100%;
+  }
+  .a {
+    display: flex;
+    font-size: 12px;
+    padding: 6px;
+    flex-direction: column;
+  }
+  .flexy {
+    gap: 10px;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem;
+  }
+  .project h1 {
+    font-size: 2rem;
+  }
+  .skill-bars {
+    margin: 4vh 1vh;
+  }
+  .achieve-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .achieve,
+  .achieve2 {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:1004px) and (min-width:650px) {
-    .body1{
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column-reverse;
-        width: 80%;
-        margin: 0vh auto;
-    }
-    .body-left{
-        width: unset;
-    }
-    .body-right{
-        width: unset;
-    }
-    .body-right img{
-        width: 50%;
-    }
-    .skills{
-        display: unset;
-        margin: auto;
-        padding: 0;
-    }
-    .project{
-        font-size: 1.2rem;
-    }
-    .container{
-        width: unset;
-    }
-    .contact{
-        padding: unset;
-    }
-    .footer-icon{
-        margin-right: unset;
-    }
-    .facon a{
-        margin: 0 5px;
-    }
-    .footer-icon a{
-        width: 25%;
-    }
-    .follow-icon a{
-        width: 40%;
-    }
-    .follow-icon{
-        width: 35%;
-    }
-    .project5{
-        width: 30%;
-    }
-    .skill-bars{
-        width: 90%;
-        margin: 2rem auto;
-    }
-    .achieve-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
-    .achieve, .achieve2{
-        width: 90%;
-    }
+@media screen and (max-width: 1004px) and (min-width: 650px) {
+  .body1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: 0vh auto;
+  }
+  .body-left {
+    width: unset;
+  }
+  .body-right {
+    width: unset;
+  }
+  .body-right img {
+    width: 50%;
+  }
+  .skills {
+    display: unset;
+    margin: auto;
+    padding: 0;
+  }
+  .project {
+    font-size: 1.2rem;
+  }
+  .container {
+    width: unset;
+  }
+  .contact {
+    padding: unset;
+  }
+  .footer-icon {
+    margin-right: unset;
+  }
+  .facon a {
+    margin: 0 5px;
+  }
+  .footer-icon a {
+    width: 25%;
+  }
+  .follow-icon a {
+    width: 40%;
+  }
+  .follow-icon {
+    width: 35%;
+  }
+  .project5 {
+    width: 30%;
+  }
+  .skill-bars {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .achieve-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .achieve,
+  .achieve2 {
+    width: 90%;
+  }
 }
 
-@media screen and (max-width:1400px) and (min-width:1024px) {
-    .body1{
-        width: unset;
-    }
-    .head-part1{
-        padding: 0.25rem;
-    }
-    .body-left{
-        width: 60%;
-    }
-    /* .skills{
+@media screen and (max-width: 1400px) and (min-width: 1024px) {
+  .body1 {
+    width: unset;
+  }
+  .head-part1 {
+    padding: 0.25rem;
+  }
+  .body-left {
+    width: 60%;
+  }
+  /* .skills{
         display: unset;
     } */
-    .form{
-        width: unset;
-        margin: unset;
-    }
-    .footer-icon a{
-        width: 19%;
-    }
-    .follow-icon{
-        width: 35%;
-    }
-    .achieve, .achieve2{
-        width: 100%;
-    }
+  .form {
+    width: unset;
+    margin: unset;
+  }
+  .footer-icon a {
+    width: 19%;
+  }
+  .follow-icon {
+    width: 35%;
+  }
+  .achieve,
+  .achieve2 {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:800px){
-    .head-part1{
-        padding: 0.25rem;
-    }
-    .header{
-        padding: unset;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .visible{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .head-elments .a{
-        font-size: 12px;
-        gap: 0px;
-        border-radius: 25px;
-    }
-    .logoA{
-        margin-left: 15px;
-    }
+@media screen and (max-width: 800px) {
+  .head-part1 {
+    padding: 0.25rem;
+  }
+  .header {
+    padding: unset;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .head-elments .a {
+    font-size: 12px;
+    gap: 0px;
+    border-radius: 25px;
+  }
+  .logoA {
+    margin-left: 15px;
+  }
 }
-

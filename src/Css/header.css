@@ -7,11 +7,10 @@ body{
 
 .header{
     display: flex;
-    /* position: sticky; */
+    position: sticky;
     top: 0;
     justify-content: space-around;
     align-items: center;
-    /* margin: auto; */
     flex-wrap: wrap;
     z-index: 999;
     padding: 10px 0;
